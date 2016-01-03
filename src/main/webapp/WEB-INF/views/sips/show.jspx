@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Sip" object="${sip}" path="/sips" z="K9M7KbvOQPKYehBkYDTp+IJuU9w=">
+        <field:display field="callerid" id="s_com_mihausik_bil_Sip_callerid" object="${sip}" z="HmFjOiC+lnZ+pt0y9aIdJX++D+A="/>
+        <field:display field="callgroup" id="s_com_mihausik_bil_Sip_callgroup" object="${sip}" z="qLtX1ltXU7KuBGlYUdOn983MWRY="/>
+        <field:display field="context" id="s_com_mihausik_bil_Sip_context" object="${sip}" z="fqvG7z4SFw+xbmpJ7T8PY0yOWEM="/>
+        <field:display field="defaultuser" id="s_com_mihausik_bil_Sip_defaultuser" object="${sip}" z="AuY8k18YCre+KyOWS/w2/AxfmLY="/>
+        <field:display field="deny" id="s_com_mihausik_bil_Sip_deny" object="${sip}" z="gVCFPsOqSd33EVrgYOJBVwtDhbQ="/>
+        <field:display field="dtmfmode" id="s_com_mihausik_bil_Sip_dtmfmode" object="${sip}" z="qBpED9kYG3LeV9iPLqLpA8R27Uw="/>
+        <field:display field="fullcontact" id="s_com_mihausik_bil_Sip_fullcontact" object="${sip}" z="uYuWR4EsusZlV30ncFQrsJLtxC0="/>
+        <field:display field="host" id="s_com_mihausik_bil_Sip_host" object="${sip}" z="jTxfcLMynhdss2U0GgmX4oW97Rk="/>
+        <field:display field="insecure" id="s_com_mihausik_bil_Sip_insecure" object="${sip}" z="YDfHnYBa+qUivBWaAEaxMME3Lmg="/>
+        <field:display field="ipaddr" id="s_com_mihausik_bil_Sip_ipaddr" object="${sip}" z="uFO87nC3voWh2nDTUx4KN2gBDq0="/>
+        <field:display field="lastms" id="s_com_mihausik_bil_Sip_lastms" object="${sip}" z="kWWj7/8cxZ+k1uOCVDPSvrBOFhQ="/>
+        <field:display field="name" id="s_com_mihausik_bil_Sip_name" object="${sip}" z="Gf8zqQ/YDY+i5t84jaJXB4we4/0="/>
+        <field:display field="nat" id="s_com_mihausik_bil_Sip_nat" object="${sip}" z="bLEUnhvzDBxiOt5sUMOdkhd6Roc="/>
+        <field:display field="permit" id="s_com_mihausik_bil_Sip_permit" object="${sip}" z="w8ZdqxPzvh9+CRnSEZx/CnCXr9A="/>
+        <field:display field="pickupgroup" id="s_com_mihausik_bil_Sip_pickupgroup" object="${sip}" z="XY6l/j4koDwVTM2jhNB/qtqyCK0="/>
+        <field:display field="port" id="s_com_mihausik_bil_Sip_port" object="${sip}" z="LhYYHKfx3XTIzvC6OhRpfZhLN1w="/>
+        <field:display field="qualify" id="s_com_mihausik_bil_Sip_qualify" object="${sip}" z="NzebXyVETOSbVk/32CgTukgBqz4="/>
+        <field:display field="regseconds" id="s_com_mihausik_bil_Sip_regseconds" object="${sip}" z="lwWxiRCmNmbaii0S/7OJYfi5IFE="/>
+        <field:display field="regserver" id="s_com_mihausik_bil_Sip_regserver" object="${sip}" z="ARch7RgaBPstIZ10fhBwp6BVOtY="/>
+        <field:display field="secret" id="s_com_mihausik_bil_Sip_secret" object="${sip}" z="fp842og3uNjO8n5amPBPfKQdXFA="/>
+        <field:display field="trunk" id="s_com_mihausik_bil_Sip_trunk" object="${sip}" z="AAeOAcDfx4wqHpwaaa0I2Vtu1EQ="/>
+        <field:display field="type" id="s_com_mihausik_bil_Sip_type" object="${sip}" z="EnX8+hf8CeKrc2DL7MFTWqSA1vU="/>
+        <field:display field="useragent" id="s_com_mihausik_bil_Sip_useragent" object="${sip}" z="gL2TrNENHGLl8a9zDn7+GoUepGM="/>
+        <field:display field="username" id="s_com_mihausik_bil_Sip_username" object="${sip}" z="0Jen5kh+o734j1mFU/wDTKQKyPE="/>
+        <field:display field="callbackextension" id="s_com_mihausik_bil_Sip_callbackextension" object="${sip}" z="C7llaWBkknvvEyafZ5nu5zHGEhs="/>
+        <field:display field="clientservice" id="s_com_mihausik_bil_Sip_clientservice" object="${sip}" z="EXR+R4tT0bWc6MPBRzw+4kjmbL0="/>
+        <field:display field="accountcode" id="s_com_mihausik_bil_Sip_accountcode" object="${sip}" z="zlVsK/iiKcHMaesNWLjNXCTRx6k="/>
+    </page:show>
+</div>

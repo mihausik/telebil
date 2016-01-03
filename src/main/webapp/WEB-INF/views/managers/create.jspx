@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_mihausik_bil_Manager" modelAttribute="manager" path="/managers" render="${empty dependencies}" z="8hRxwLUkyFQlJLBBfCOsa8qkedQ=">
+        <field:input field="manname" id="c_com_mihausik_bil_Manager_manname" z="o8lM+j5rx9Q2P5+pmKj8nnTAEUc="/>
+        <field:input field="password" id="c_com_mihausik_bil_Manager_password" z="YRB/+EiUvNIpeVwCAcdaAMmY77I="/>
+        <field:checkbox field="enable" id="c_com_mihausik_bil_Manager_enable" z="masLYujDcxmgHZGfDGnbM+qJu/w="/>
+        <field:input field="login" id="c_com_mihausik_bil_Manager_login" z="GBKjAK0yvDkJsb4fJXAVoe7uTl0="/>
+        <field:select field="doljnost" id="c_com_mihausik_bil_Manager_doljnost" itemValue="id" items="${doljnosts}" path="/doljnosts" z="+2K3+2hePYZ+6QXJVd3QTEMh4Qs="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_mihausik_bil_Manager" render="${not empty dependencies}" z="bvpCzP26CC3i4aetobb8U7z3loI="/>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Sip" items="${sips}" z="eNeYTMmFhBHdK83yNviHiawj5e4=">
+        <table:table data="${sips}" id="l_com_mihausik_bil_Sip" path="/sips" z="d1Dy9CDO+UvexXSH9K4Hdlr4bZQ=">
+            <table:column id="c_com_mihausik_bil_Sip_callerid" property="callerid" z="Tkb/rbrNHjV6fhLqGcWxgsXRCic="/>
+            <table:column id="c_com_mihausik_bil_Sip_callgroup" property="callgroup" z="oVhpbWY36/r1oRi9dUchA0T69W4="/>
+            <table:column id="c_com_mihausik_bil_Sip_context" property="context" z="N+v0MosZAM9/R02xZIkEx6LYRLY="/>
+            <table:column id="c_com_mihausik_bil_Sip_defaultuser" property="defaultuser" z="hKph3dRRf0udo3+UnmOs8FI6oLk="/>
+            <table:column id="c_com_mihausik_bil_Sip_deny" property="deny" z="lEYy0oUpME40mYI0M5S1y23iKTY="/>
+            <table:column id="c_com_mihausik_bil_Sip_dtmfmode" property="dtmfmode" z="CszXhaCVJyIvRuFHMfrim+MWclk="/>
+        </table:table>
+    </page:list>
+</div>

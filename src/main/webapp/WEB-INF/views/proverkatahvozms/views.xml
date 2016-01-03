@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="proverkatahvozms/list">
+        <put-attribute name="body" value="/WEB-INF/views/proverkatahvozms/list.jspx"/>
+    </definition>
+<definition extends="default" name="proverkatahvozms/show">
+        <put-attribute name="body" value="/WEB-INF/views/proverkatahvozms/show.jsp"/>
+    </definition>
+<definition extends="default" name="proverkatahvozms/create">
+        <put-attribute name="body" value="/WEB-INF/views/proverkatahvozms/create.jspx"/>
+    </definition>
+<definition extends="default" name="proverkatahvozms/update">
+        <put-attribute name="body" value="/WEB-INF/views/proverkatahvozms/update.jspx"/>
+    </definition>
+<definition extends="default" name="proverkatahvozms/findProverkatahvozmsByTvexistence">
+        <put-attribute name="body" value="/WEB-INF/views/proverkatahvozms/findProverkatahvozmsByTvexistence.jspx"/>
+    </definition>
+<definition extends="default" name="proverkatahvozms/findProverkatahvozmsByStatuszayavki">
+        <put-attribute name="body" value="/WEB-INF/views/proverkatahvozms/findProverkatahvozmsByStatuszayavki.jspx"/>
+    </definition>
+<definition extends="default" name="proverkatahvozms/findProverkatahvozmsByManager">
+        <put-attribute name="body" value="/WEB-INF/views/proverkatahvozms/findProverkatahvozmsByManager.jspx"/>
+    </definition>
+<definition extends="default" name="proverkatahvozms/findProverkatahvozmsByAddrpodclucheniaLike">
+        <put-attribute name="body" value="/WEB-INF/views/proverkatahvozms/findProverkatahvozmsByAddrpodclucheniaLike.jspx"/>
+    </definition>
+</tiles-definitions>

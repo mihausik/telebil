@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Wish" modelAttribute="wish" path="/wishes" versionField="Version" z="dHiX0BGGPlD2L36YYfEy+CzAiOE=">
+        <field:textarea field="wishname" id="c_com_mihausik_bil_Wish_wishname" z="user-managed"/>
+        <field:select field="manager" id="c_com_mihausik_bil_Wish_manager" itemLabel="manname" itemValue="id" items="${managers}" path="/managers" z="user-managed"/>
+        <field:select field="resultat" id="c_com_mihausik_bil_Wish_resultat" items="${results}" path="results" z="rpmyvOxgY+TEFQy3tlYi2DK/NtY="/>
+        <field:select field="prioritet" id="c_com_mihausik_bil_Wish_prioritet" items="${prioritys}" path="prioritys" z="Nb1FOWNsO/pxu4warEeaTkNsD9c="/>
+    </form:update>
+</div>

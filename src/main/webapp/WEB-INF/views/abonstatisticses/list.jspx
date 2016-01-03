@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Abonstatistics" items="${abonstatisticses}" z="e9BA9jN8yGioOH5bDFRD+3ys0+0=">
+        <table:table data="${abonstatisticses}" id="l_com_mihausik_bil_Abonstatistics" path="/abonstatisticses" z="8RndB3RzYK1kNISeluCWay0clHg=">
+            <table:column id="c_com_mihausik_bil_Abonstatistics_supplier" property="supplier" z="LP73aVlUH53fOld3HeSdT6MYmKg="/>
+            <table:column  date="true" dateTimePattern="MMM-YYYY" id="c_com_mihausik_bil_Abonstatistics_date" property="date" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Abonstatistics_abonquantitypodkl" property="abonquantitypodkl" z="tRA6mH0RWV0rubbR7ieFx/lb0tE="/>
+            <table:column id="c_com_mihausik_bil_Abonstatistics_abonquantityotkl" property="abonquantityotkl" z="PYcoVmPaN12ObxgQdbdpj6rHsVs="/>
+        </table:table>
+    </page:list>
+</div>

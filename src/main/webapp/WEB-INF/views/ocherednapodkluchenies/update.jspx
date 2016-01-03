@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Ocherednapodkluchenie" modelAttribute="ocherednapodkluchenie" path="/ocherednapodkluchenies" versionField="Version" z="ch0BjLOHxFiS4RhFkrudhcsyMEY=">
+        <field:select field="client" id="c_com_mihausik_bil_Ocherednapodkluchenie_client" itemValue="id" items="${clients}" path="/clients" z="zhEVv7e3AhHGmAB4fhpdNuKtU8Y="/>
+        <field:select field="manager" id="c_com_mihausik_bil_Ocherednapodkluchenie_manager" itemValue="id" items="${managers}" path="/managers" z="Ic6wk7BGY1ua3lVy/YMNKEsnMl0="/>
+        <field:select field="clientservice" id="c_com_mihausik_bil_Ocherednapodkluchenie_clientservice" itemLabel="service.name" itemValue="id" items="${clientservices}" path="/clientservices" z="user-managed"/>
+        <field:checkbox field="arhiv" id="c_com_mihausik_bil_Ocherednapodkluchenie_arhiv" z="Fic4l2xWFLlVXkCVXHcZKRbQwjE="/>
+        <field:datetime dateTimePattern="${ocherednapodkluchenie_datapodkluchenia_date_format}" field="datapodkluchenia" id="c_com_mihausik_bil_Ocherednapodkluchenie_datapodkluchenia" z="y3op4ehx/frDwKqFbv72fou5Epw="/>
+        <field:datetime dateTimePattern="${ocherednapodkluchenie_deadlinedate_date_format}" field="deadlinedate" id="c_com_mihausik_bil_Ocherednapodkluchenie_deadlinedate" z="aiIgHwHrxYP7YDj+3MQsiEKBxDU="/>
+        <field:select field="supplier" id="c_com_mihausik_bil_Ocherednapodkluchenie_supplier" itemValue="id" items="${suppliers}" path="/suppliers" required="true" z="3tAY3sDJDHooG1z6/91mt2xG4Tk="/>
+    </form:update>
+</div>

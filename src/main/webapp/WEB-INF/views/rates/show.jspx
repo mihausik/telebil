@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Rate" object="${rate}" path="/rates" z="mOLGhvbjjy38PT8SpqXMUJA/p1k=">
+        <field:display field="buy" id="s_com_mihausik_bil_Rate_buy" object="${rate}" z="VGqsLrC9UKquUzz513zY7XHZ7vY="/>
+        <field:display field="name" id="s_com_mihausik_bil_Rate_name" object="${rate}" z="tPJwOBHLyKMACRuBweevQ3CRnxw="/>
+        <field:display field="prefix" id="s_com_mihausik_bil_Rate_prefix" object="${rate}" z="CdXbNEnf6NqcUo8D1ifcp+AaDVc="/>
+        <field:display field="sell" id="s_com_mihausik_bil_Rate_sell" object="${rate}" z="fFyT/maSpKDAgHmBn5tASaegKfA="/>
+        <field:display field="trunk" id="s_com_mihausik_bil_Rate_trunk" object="${rate}" z="yHAV8krPQYvA6nG/iDg4lba+3NQ="/>
+        <field:display field="callplan" id="s_com_mihausik_bil_Rate_callplan" object="${rate}" z="scHRgvFJVtjcAfj4HkeBJU+0NZs="/>
+        <field:display field="cutdigits" id="s_com_mihausik_bil_Rate_cutdigits" object="${rate}" z="cjeC4+w79lp36jgNLdgEeYHFS2A="/>
+        <field:display field="minduration" id="s_com_mihausik_bil_Rate_minduration" object="${rate}" z="pIxcvvJmVvDe8Fl75naiVppwyg8="/>
+    </page:show>
+</div>

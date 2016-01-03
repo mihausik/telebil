@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Tempblock" items="${tempblocks}" z="Z3SPMk5rRcunBctOeychpVuT92Q=">
+        <table:table create="false" data="${tempblocks}" delete="false" id="l_com_mihausik_bil_Tempblock" path="/tempblocks" z="user-managed">
+            <table:column id="c_com_mihausik_bil_Tempblock_clientservice" property="clientservice" render="false" z="user-managed"/>
+            <table:column date="true" dateTimePattern="${tempblock_startblock_date_format}" id="c_com_mihausik_bil_Tempblock_startblock" property="startblock" z="dYyenmsOBir1/ah6ZhJwVBsOiJM="/>
+            <table:column date="true" dateTimePattern="${tempblock_stopblock_date_format}" id="c_com_mihausik_bil_Tempblock_stopblock" property="stopblock" z="cl2bs38cxzm/CoYL4ISidDpk9Qg="/>
+        </table:table>
+        <br/>
+        <a href="/telebil/clientservices/${clientservices}">Back</a>
+    </page:list>
+</div>

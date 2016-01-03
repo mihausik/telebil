@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Schet" items="${schets}" z="nQdpf2HJC3ix/Ai6AMHPo/T2lqs=">
+        <table:table data="${schets}" id="l_com_mihausik_bil_Schet" path="/schets" update="false" z="user-managed">
+            <table:column id="c_com_mihausik_bil_Schet_client" property="client.clientname" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Schet_schet" property="schet" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Schet_contentType" property="contentType" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Schet_filepath" property="filepath" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Schet_filesize" property="filesize" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Schet_filename" property="filename" z="Mts6S7kC5skz+xXn98uHWAm4NCs="/>
+        </table:table>
+    </page:list>
+</div>

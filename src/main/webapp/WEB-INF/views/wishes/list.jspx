@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Wish" items="${wishes}" z="2O/GI2VDUmzbpj76Q/aR3lm72Wk=">
+        <table:table data="${wishes}" id="l_com_mihausik_bil_Wish" path="/wishes" z="fsEsXwF7a0wKlDNdJgUGG3SwCfc=">
+            <table:column id="c_com_mihausik_bil_Wish_wishname" maxLength="20" property="wishname" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Wish_manager" property="manager.manname" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Wish_prioritet" property="prioritet" z="juUER8QmLq9thDLVkDECqW9vTuA="/>
+            <table:column id="c_com_mihausik_bil_Wish_resultat" property="resultat" z="GnMnkdUZuslXtdF9R1LWpl+2RwQ="/>
+        </table:table>
+    </page:list>
+</div>

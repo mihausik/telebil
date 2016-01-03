@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Wish" object="${wish}" path="/wishes" z="MQ8iq+7iCT9SZU6WrI3PvQWlPTk=">
+        <label>Менеджер:</label>
+        <div class="box">
+            <c:out value="${wish.manager.manname}"/>
+        </div>
+        <br/>
+        <field:display field="wishname" id="s_com_mihausik_bil_Wish_wishname" object="${wish}" z="8QRgbcPH4qkmJJGelk30xIJq+N4="/>
+        <field:display field="resultat" id="s_com_mihausik_bil_Wish_resultat" object="${wish}" z="Qi6vLmqg7xd2QomEm051j0UGjMk="/>
+        <field:display field="prioritet" id="s_com_mihausik_bil_Wish_prioritet" object="${wish}" z="7HVMiI+cTeK4gYFNpSTLgpPtIG4="/>
+        <field:display field="manager" id="s_com_mihausik_bil_Wish_manager" object="${wish}" z="qE3yTJjN5qjSoROC4Ot/qQgEJ5A="/>
+    </page:show>
+</div>

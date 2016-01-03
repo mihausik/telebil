@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Zayavkanaremont" object="${zayavkanaremont}" path="/zayavkanaremonts" z="jAXbLtyQiwtw6RVTVmfmHZZO8RI=">
+        <field:display date="true" dateTimePattern="${zayavkanaremont_dataoformleniya_date_format}" field="dataoformleniya" id="s_com_mihausik_bil_Zayavkanaremont_dataoformleniya" object="${zayavkanaremont}" z="cfDnoBgN6gPKmb+AzxUKK1WcSPU="/>
+        <field:display field="clientservice" id="s_com_mihausik_bil_Zayavkanaremont_clientservice" object="${zayavkanaremont}" z="5xUpWfBK6if09+xs497p3XYRqB0="/>
+        <field:display field="message" id="s_com_mihausik_bil_Zayavkanaremont_message" object="${zayavkanaremont}" z="H6y9WwZp2wfPC0CF9p8XEFqyOYE="/>
+        
+        <br/>
+         <table>
+          <tr>
+          <th>Сотрудник</th>
+          <th>Комментарий</th>
+          </tr>
+          <c:forEach var="comments" items="${comments}">
+          <tr>
+          <td>${comments.manager.manname}</td>
+          <td>${comments.comment}</td>
+          </tr>
+      </c:forEach>
+    </table>
+  
+    </page:show>
+</div>

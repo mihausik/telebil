@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show create="false" delete="false" id="ps_com_mihausik_bil_Cdr" list="false" object="${cdr}" path="/cdrs" update="false" z="user-managed">
+        <field:display field="destination" id="s_com_mihausik_bil_Cdr_destination" object="${cdr}" z="H0IVXJtJZYv0xkQPqAWGDfRWmEI="/>
+        <field:display field="duration" id="s_com_mihausik_bil_Cdr_duration" object="${cdr}" z="6T6CIUJOM/CmdoTi62tMZ+vs4bo="/>
+        <field:display field="sell" id="s_com_mihausik_bil_Cdr_sell" object="${cdr}" z="NrDmtt/oLjrZbYx4zplp/5BHGs8="/>
+        <field:display field="source" id="s_com_mihausik_bil_Cdr_source" object="${cdr}" z="fAqmPbUQshGYevoAX/TAtXG7eQM="/>
+        <field:display date="true" dateTimePattern="${cdr_calltime_date_format}" field="calltime" id="s_com_mihausik_bil_Cdr_calltime" object="${cdr}" z="WIjWWX0WFZbAtazc//b6GtARogg="/>
+        <field:display field="disposition" id="s_com_mihausik_bil_Cdr_disposition" object="${cdr}" z="dKCPGucUVwFPg76eujuJldnIlkc="/>
+        <field:display field="clientservice" id="s_com_mihausik_bil_Cdr_clientservice" object="${cdr}" z="ggNvYzbvsPKpzoKgHkyAvflNw04="/>
+    </page:show>
+</div>

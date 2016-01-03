@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show delete="false" id="ps_com_mihausik_bil_Commentszayavok" object="${commentszayavok}" path="/commentszayavoks" update="false" z="dVv9WGsr3/Tm9g7F/PEIvKu/iqY=">
+        <field:display field="comment" id="s_com_mihausik_bil_Commentszayavok_comment" object="${commentszayavok}" z="wt14z/y6SyW0zT1cGwh68hEM5q8="/>
+        <field:display field="manager" id="s_com_mihausik_bil_Commentszayavok_manager" object="${commentszayavok}" z="szXY5WZuQhCaSF5tOdmRPBa3Cro="/>
+        <field:display field="proverkatahvozm" id="s_com_mihausik_bil_Commentszayavok_proverkatahvozm" object="${commentszayavok}" z="upFfDA3VXcXLnweVUmwr4o6HOL0="/>
+        <field:display date="true" dateTimePattern="${commentszayavok_datacommenta_date_format}" field="datacommenta" id="s_com_mihausik_bil_Commentszayavok_datacommenta" object="${commentszayavok}" z="/nBIOjjdZj678VNtL1IHJU0Pdbs="/>
+    </page:show>
+</div>

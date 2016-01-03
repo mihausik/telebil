@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Clientnotification" modelAttribute="clientnotification" path="/clientnotifications" versionField="Version" z="TJf7gsCyaWR08Jkh3vJGhAMLbtg=">
+        <field:select field="notiftype" id="c_com_mihausik_bil_Clientnotification_notiftype" items="${notiftypes}" path="notiftypes" z="pKdEWzOqJr5umulExkWL9bJms98="/>
+        <field:input field="contact" id="c_com_mihausik_bil_Clientnotification_contact" z="6dqLUHp5PLDNUViM7Cz/aYs65a8="/>
+        <field:input field="notificationsum" id="c_com_mihausik_bil_Clientnotification_notificationsum" z="yXQXlCKTxZr4IyMnQ/r6BQQ+OFk="/>
+        <field:select field="client" id="c_com_mihausik_bil_Clientnotification_client" itemValue="id" items="${clients}" path="/clients" z="9m2m9sWgcqqKF+m5Ueko9y/P5Nc="/>
+        <field:select field="clientservice" id="c_com_mihausik_bil_Clientnotification_clientservice" itemValue="id" items="${clientservices}" path="/clientservices" z="Bm8hb3lWmS05Eior/vm2F32xbLM="/>
+    </form:update>
+</div>

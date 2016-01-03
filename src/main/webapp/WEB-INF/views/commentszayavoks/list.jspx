@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Commentszayavok" items="${commentszayavoks}" z="16EUrkSoA4f1y4tN2YSCAo+2nbo=">
+        <table:table data="${commentszayavoks}" delete="false" id="l_com_mihausik_bil_Commentszayavok" path="/commentszayavoks" update="false" z="Zg/DePyNG+Nq7/WwethhzLHYmlA=">
+            <table:column id="c_com_mihausik_bil_Commentszayavok_comment" property="comment" z="wVhGElUYKKZrQp/J7fyuDeg3yhc="/>
+            <table:column id="c_com_mihausik_bil_Commentszayavok_manager" property="manager" z="6L9dXadO7/Zk7C+fUri4R2UzJOg="/>
+            <table:column id="c_com_mihausik_bil_Commentszayavok_proverkatahvozm" property="proverkatahvozm" z="gY1jp3lUMdpHCr3Q39D9iFwXjIM="/>
+            <table:column date="true" dateTimePattern="${commentszayavok_datacommenta_date_format}" id="c_com_mihausik_bil_Commentszayavok_datacommenta" property="datacommenta" z="Ra54hsM49ASfwRcsVA5k0YzYzlQ="/>
+        </table:table>
+    </page:list>
+</div>

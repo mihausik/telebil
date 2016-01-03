@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_mihausik_bil_Tempblock" modelAttribute="tempblock" path="/tempblocks" render="${empty dependencies}" z="z0TxzaFpgAxvKoa8Ged5D0RWmYI=">
+        <field:select field="clientservice" id="c_com_mihausik_bil_Tempblock_clientservice" itemValue="id" items="${clientservices}" path="/clientservices" z="gq3m+jkz5XxXQrZnA94Gm0EBPao="/>
+        <field:datetime dateTimePattern="${tempblock_startblock_date_format}" field="startblock" id="c_com_mihausik_bil_Tempblock_startblock" z="qLbU2L12u4oYuZO2DVx9/gJveD8="/>
+        <field:datetime dateTimePattern="${tempblock_stopblock_date_format}" field="stopblock" id="c_com_mihausik_bil_Tempblock_stopblock" z="fjiSKBPrfNGTHt/sCCtBKRfngEA="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_mihausik_bil_Tempblock" render="${not empty dependencies}" z="Z8M2Bmltv294um3K2DyxOjTBRk0="/>
+</div>

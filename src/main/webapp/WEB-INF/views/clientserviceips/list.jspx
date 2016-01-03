@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Clientserviceip" items="${clientserviceips}" z="XUYZvAMxwVf52PcIl0z41RKcA/8=">
+        <table:table data="${clientserviceips}" id="l_com_mihausik_bil_Clientserviceip" path="/clientserviceips" z="7jO3/wGjMY1TUaEGKEDWhM8/T2s=">
+            <table:column id="c_com_mihausik_bil_Clientserviceip_ip" property="ip" z="nKPsQhxyTAR/JQU3YIQNTDtaYzs="/>
+            <table:column id="c_com_mihausik_bil_Clientserviceip_mask" property="mask" z="m4sKdUNO/Zn7S0yQGQGw9Bqjwp4="/>
+            <table:column id="c_com_mihausik_bil_Clientserviceip_gateway" property="gateway" z="kUrhNpyvVhMrdnmNXzNczqOFIwc="/>
+            <table:column id="c_com_mihausik_bil_Clientserviceip_macaddr" property="macaddr" z="B05tbcSQKm4CFYQFRoIz3caPNng="/>
+            <table:column id="c_com_mihausik_bil_Clientserviceip_clientservice" property="clientservice" z="NrFWcoIlyEljsPB5iZWszm5hqtg="/>
+            <table:column id="c_com_mihausik_bil_Clientserviceip_iptype" property="iptype" z="fYfk6xMlE61Rga7b09OBurkkYRQ="/>
+        </table:table>
+    </page:list>
+</div>

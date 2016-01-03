@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Commutator" modelAttribute="commutator" path="/commutators" versionField="Version" z="Xg92BSrGPVcsDbX81oE5dfYkvO4=">
+        <field:input field="comname" id="c_com_mihausik_bil_Commutator_comname" z="6OP/fZyK3a0rnR7BNng6rDxMtsg="/>
+        <field:input field="kolportov" id="c_com_mihausik_bil_Commutator_kolportov" z="+W2DRmKEf5ptjbc9BjyFFWlsxM0="/>
+        <field:input field="description" id="c_com_mihausik_bil_Commutator_description" z="l8nXqh1BnN9aCCsY1KgrJLtzP2Q="/>
+    </form:update>
+</div>

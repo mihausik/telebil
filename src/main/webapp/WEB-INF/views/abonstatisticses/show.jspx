@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Abonstatistics" object="${abonstatistics}" path="/abonstatisticses" z="KJgYgPNM1YoMEjkYsuuM5G+oU4s=">
+        <field:display field="supplier" id="s_com_mihausik_bil_Abonstatistics_supplier" object="${abonstatistics}" z="WlhDwz7Xwku+5dFhLHlpEkYwJ68="/>
+        <field:display date="true" dateTimePattern="${abonstatistics_date_date_format}" field="date" id="s_com_mihausik_bil_Abonstatistics_date" object="${abonstatistics}" z="r+NAo6z4/N925yzQmorhsboSH3s="/>
+        <field:display field="abonquantitypodkl" id="s_com_mihausik_bil_Abonstatistics_abonquantitypodkl" object="${abonstatistics}" z="qwqj6YuFAjzeMWOhz3qszc9CLZs="/>
+        <field:display field="abonquantityotkl" id="s_com_mihausik_bil_Abonstatistics_abonquantityotkl" object="${abonstatistics}" z="hRGYNcfFM7UNM7nYaZEA1NhkNgA="/>
+    </page:show>
+</div>

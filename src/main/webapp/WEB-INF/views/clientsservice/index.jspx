@@ -1,0 +1,9 @@
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1"
+
+    xmlns:c="http://java.sun.com/jsp/jstl/core">
+<select id="c_com_mihausik_bil_Payment_service"  itemValue="id"  path="/services" z="vQA2GMzsovNpj8mH0p7aJUF8WZg="/>
+<c:forEach items="${cservice}" var="cservice">
+<option>${cservice.service.name},   ${cservice.addresspreduslugi}</option>
+</c:forEach>
+</select>
+</jsp:root>

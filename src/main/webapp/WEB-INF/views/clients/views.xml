@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="clients/list">
+        <put-attribute name="body" value="/WEB-INF/views/clients/list.jspx"/>
+    </definition>
+<definition extends="default" name="clients/show">
+        <put-attribute name="body" value="/WEB-INF/views/clients/show.jsp"/>
+    </definition>
+<definition extends="default" name="clients/create">
+        <put-attribute name="body" value="/WEB-INF/views/clients/create.jsp"/>
+    </definition>
+<definition extends="default" name="clients/update">
+        <put-attribute name="body" value="/WEB-INF/views/clients/update.jsp"/>
+    </definition>
+<definition extends="default" name="clients/findClientsBySupplier">
+        <put-attribute name="body" value="/WEB-INF/views/clients/findClientsBySupplier.jspx"/>
+    </definition>
+<definition extends="default" name="clients/findClientsByService">
+        <put-attribute name="body" value="/WEB-INF/views/clients/findClientsByService.jspx"/>
+    </definition>
+
+<definition extends="default" name="clients/findClientsByClientnameLike">
+        <put-attribute name="body" value="/WEB-INF/views/clients/findClientsByClientnameLike.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="clients/findClientsByAll">
+        <put-attribute name="body" value="/WEB-INF/views/clients/findClientsByAll.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="clients/findClientsByIP">
+        <put-attribute name="body" value="/WEB-INF/views/clients/findClientsByIP.jspx"/>
+    </definition>
+    
+    <definition extends="default" name="clients/findClientsByDog">
+        <put-attribute name="body" value="/WEB-INF/views/clients/findClientsByDog.jspx"/>
+    </definition>
+
+</tiles-definitions>

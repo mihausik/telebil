@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Clientdata" modelAttribute="clientdata" path="/clientdatas" versionField="Version" z="RXuXeQnQVKNYOK6veLJUVqQTHWE=">
+        <field:select field="contacttype" id="c_com_mihausik_bil_Clientdata_contacttype" itemValue="id" items="${clientcontacttypes}" path="/clientcontacttypes" z="g5UVto/KL9seEK/IrplrxQ7lzOk="/>
+        <field:select field="contactname" id="c_com_mihausik_bil_Clientdata_contactname" itemValue="id" items="${clientcontacts}" path="/clientcontacts" z="3MuJc6vsFpKuIs1QX28ytW+mg2M="/>
+        <field:select field="client" id="c_com_mihausik_bil_Clientdata_client" itemValue="id" items="${clients}" path="/clients" z="g5xXF1kga6cFdlo5sUL+oSDdS4E="/>
+        <field:input field="contact" id="c_com_mihausik_bil_Clientdata_contact" z="bkclFRjermXGNwET6wmwXUBK2N4="/>
+        <field:input field="fio" id="c_com_mihausik_bil_Clientdata_fio" z="XzudzA3+DyCk0emOoZ1QKh/5ysQ="/>
+        <field:input field="doljnost" id="c_com_mihausik_bil_Clientdata_doljnost" z="j0eQ8pBJpnjSpXngO9li90K315s="/>
+    </form:update>
+</div>

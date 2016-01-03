@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Service" modelAttribute="service" path="/services" versionField="Version" z="xCrbbyobhgngKzsNJdRFXilx5ww=">
+        <field:input field="name" id="c_com_mihausik_bil_Service_name" z="PKjOBWuEbShj/XniOMwM6zBZVK8="/>
+        <field:input field="price" id="c_com_mihausik_bil_Service_price" validationMessageCode="field_invalid_number" z="99C13tpiIL4Gjl8R5cwHjpntmAE="/>
+    </form:update>
+</div>

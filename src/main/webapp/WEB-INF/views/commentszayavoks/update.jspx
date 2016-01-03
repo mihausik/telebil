@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Commentszayavok" modelAttribute="commentszayavok" path="/commentszayavoks" versionField="Version" z="qYa7x9K5nZ5VFqB/hit9mXisi2k=">
+        <field:input field="comment" id="c_com_mihausik_bil_Commentszayavok_comment" z="MLbKZRlKa211wFANLzsuanrLXwU="/>
+        <field:select field="manager" id="c_com_mihausik_bil_Commentszayavok_manager" itemValue="id" items="${managers}" path="/managers" z="raHbHayXassDlhgsc6b1Yw9NLws="/>
+        <field:select field="proverkatahvozm" id="c_com_mihausik_bil_Commentszayavok_proverkatahvozm" itemValue="id" items="${proverkatahvozms}" path="/proverkatahvozms" z="y9/9gUBAEBGRi06JctnMLUs4fSo="/>
+    </form:update>
+</div>

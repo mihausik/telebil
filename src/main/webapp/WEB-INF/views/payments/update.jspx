@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Payment" modelAttribute="payment" path="/payments" versionField="Version" z="tBXv8+DaSedyFYL98dUKwJe+Rx8=">
+        <field:input field="summa" id="c_com_mihausik_bil_Payment_summa" validationMessageCode="field_invalid_number" z="Pw2ccB+TdqnulGNlLtnqW1TLMoY="/>
+        <field:datetime dateTimePattern="${payment_dataplateja_date_format}" field="dataplateja" id="c_com_mihausik_bil_Payment_dataplateja" z="mX+HMIe0S6N7CKV/2FJ1GRyrRik="/>
+        <field:select field="client" id="c_com_mihausik_bil_Payment_client" itemValue="id" items="${clients}" path="/clients" z="TkJn19f9LbD6cQ0X6YOApPjhA7o="/>
+        <field:input field="description" id="c_com_mihausik_bil_Payment_description" z="bAgBjOUajyjwfs71OVAzuKOfgrU="/>
+        <field:select field="clientservice" id="c_com_mihausik_bil_Payment_clientservice" itemValue="id" items="${clientservices}" path="/clientservices" z="maP6g0tZuyHbUG0UCn4GTRpmHWs="/>
+    </form:update>
+</div>

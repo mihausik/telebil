@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Clientservice" modelAttribute="clientservice" multipart="true" path="/clientservices/update" versionField="Version" z="user-managed">
+        <img height="200px" src="${clientservice.id}/image"/>
+        <field:select field="client" id="c_com_mihausik_bil_Clientservice_client" itemLabel="clientname" itemValue="id" items="${clients}" path="/clients" z="user-managed"/>
+        <field:input field="balance" id="c_com_mihausik_bil_Clientservice_balance" validationMessageCode="field_invalid_number" z="GTcjSc1Wo6IKNIcZg8KU8QDuESk="/>
+        <field:input field="phonecreditblock" id="c_com_mihausik_bil_Clientservice_phonecreditblock" z="Kzjmf+wl9NKSleolPnXqoDj3KBU="/>
+        <field:input field="creditdate" id="c_com_mihausik_bil_Clientservice_creditdate" z="user-managed"/>
+        <field:input field="whogavecredit" id="c_com_mihausik_bil_Clientservice_whogavecredit" z="user-managed"/>
+        <field:checkbox field="statususlugi" id="c_com_mihausik_bil_Clientservice_statususlugi" z="uwGYI82nh4UsHGmSFqeAB8Omt/A="/>
+        <field:checkbox field="ismailsent" id="s_com_mihausik_bil_Clientservice_ismailsent" z="user-managed"/>
+        <field:select field="service" id="c_com_mihausik_bil_Clientservice_service" itemValue="id" items="${services}" path="/services" z="m3JV6hQST6EQMRTvVq8wvrQoTXQ="/>
+        <field:input field="addresspreduslugi" id="c_com_mihausik_bil_Clientservice_addresspreduslugi" required="true" z="user-managed"/>
+        <field:input field="ip" id="c_com_mihausik_bil_Clientservice_ip" max="15" render="false" z="user-managed"/>
+        <field:input field="mask" id="c_com_mihausik_bil_Clientservice_mask" render="false" z="user-managed"/>
+        <field:input field="gateway" id="c_com_mihausik_bil_Clientservice_gateway" render="false" z="user-managed"/>
+        <field:input field="gatewayswitch" id="c_com_mihausik_bil_Clientservice_gatewayswitch" z="CusjVw1fpG0dz/w9CpGIpoRp5gM="/>
+        <field:input field="connectionpoint" id="c_com_mihausik_bil_Clientservice_connectionpoint" z="user-managed"/>
+        <field:input field="speed" id="s_com_mihausik_bil_Clientservice_speed" z="p+8yMLKedleJYno7RvVw6syPfws="/>
+        <field:input field="vlan" id="c_com_mihausik_bil_Clientservice_vlan" z="Buoa3p6OxTMioSl5ryvZLSP10kI="/>
+        <field:input field="tranzop" id="c_com_mihausik_bil_Clientservice_tranzop" z="L2DPwzm5Bsxac/w+7Ei8upYZDzU="/>
+        <field:select field="connectiontype" id="c_com_mihausik_bil_Clientservice_connectiontype" items="${connectiontypes}" path="connectiontypes" z="BEuxn0hJzroZ9knXLD5XbbkmuOM="/>
+        <field:input field="phonenum" id="c_com_mihausik_bil_Clientservice_phonenum" render="false" z="E//gE1q4+UWasFeVzQ1eryYJ/os="/>
+        <field:file field="schemapodk" id="c_com_mihausik_bil_Clientservice_schemapodk" type="file" z="user-managed"/>
+        <field:select field="callplan" id="c_com_mihausik_bil_Clientservice_callplan" itemValue="id" items="${callplans}" path="/callplans" z="llupHqdTHd0y+T0EfrfSVwS9cO4="/>
+        <field:input field="numberofnlinij" id="c_com_mihausik_bil_Clientservice_numberofnlinij" validationMessageCode="field_invalid_integer" z="Z21QiRvWVYmVX9m57AVHUwZTdG0="/>
+        <field:input field="numberofbnlinij" id="c_com_mihausik_bil_Clientservice_numberofbnlinij" validationMessageCode="field_invalid_integer" z="5zssitnpWeP6+BP/gOAuaq0lJ7I="/>
+        <field:datetime dateTimePattern="${clientservice_datapodkluchenia_date_format}" field="datapodkluchenia" id="c_com_mihausik_bil_Clientservice_datapodkluchenia" z="1Rt2HkiRkiYHdTgZjpliOBswN6w="/>
+        <field:datetime dateTimePattern="${clientservice_dataotkluchenia_date_format}" field="dataotkluchenia" id="c_com_mihausik_bil_Clientservice_dataotkluchenia" z="Z56nFTB03iOMmS3xrka+1wrBUn0="/>
+        <field:select field="commutator" id="c_com_mihausik_bil_Clientservice_commutator" itemValue="id" items="${commutators}" path="/commutators" z="u90zEkQSwYE7rGpvicQ9DQgz7eE="/>
+        <field:input field="speed" id="c_com_mihausik_bil_Clientservice_speed" z="pGpj3QJYd9afFID7y2nWQgchmP8="/>
+        <field:input field="contentType" id="c_com_mihausik_bil_Clientservice_contentType" z="hiXR1Da8jEQ14rbbRbj+vOL4jE8="/>
+        <field:checkbox field="ismailsent" id="c_com_mihausik_bil_Clientservice_ismailsent" z="ww7nnlsjrEeaB5Erq4p9Saos9fY="/>
+    </form:update>
+</div>

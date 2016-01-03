@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Payment" items="${payments}" z="BKTHVrUTyAqb1/dznnTq3AxQr3I=">
+        <table:table create="false" data="${payments}" delete="false" id="l_com_mihausik_bil_Payment" path="/payments" update="false" z="user-managed">
+            <table:column date="true" dateTimePattern="${payment_dataplateja_date_format}" id="c_com_mihausik_bil_Payment_dataplateja" property="dataplateja" z="vqWPrP6qxZMXPT4Q6xYZvP1Y+ik="/>
+            <table:column id="c_com_mihausik_bil_Payment_client" property="client.clientname" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Payment_summa" property="summa" z="5gHyfZ1mOeep81ysCFuGaYLBrjw="/>
+            <table:column id="c_com_mihausik_bil_Payment_description" property="description" z="us5S6FtDmT7esiDfEfIjQ+PmFhQ="/>
+            <table:column id="c_com_mihausik_bil_Payment_clientservice" property="clientservice" render="false" z="user-managed"/>
+        </table:table>
+        <br/>
+        <a href="/telebil/clients/${paymentsclient}">Back</a>
+    </page:list>
+</div>

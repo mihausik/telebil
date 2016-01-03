@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Clientservicecredit" items="${clientservicecredits}" z="YTUMZ6h76uy70hEyw9HWFmzPKT8=">
+        <table:table data="${clientservicecredits}" id="l_com_mihausik_bil_Clientservicecredit" path="/clientservicecredits" z="wsvnzgPtD55f83aqfgIYPOrGl04=">
+            <table:column id="c_com_mihausik_bil_Clientservicecredit_clientservice" property="clientservice" z="3z2A1q5AtZUXWmFvd9pIyeaVyY4="/>
+            <table:column id="c_com_mihausik_bil_Clientservicecredit_credit" property="credit" z="GKgxRtExUBrDD3BjpyA0m3QteV4="/>
+            <table:column id="c_com_mihausik_bil_Clientservicecredit_Datastartcredit" property="datastartcredit" z="ieKPIKM152FB+qH/rjVZkujiCog="/>
+            <table:column id="c_com_mihausik_bil_Clientservicecredit_Datastopcredit" property="datastopcredit" z="bb5DMBlHHBHFM9ccUaUGkP7hLNs="/>
+        </table:table>
+    </page:list>
+</div>

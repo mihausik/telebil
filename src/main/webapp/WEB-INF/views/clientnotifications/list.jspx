@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Clientnotification" items="${clientnotifications}" z="XtzJmAr/6OyCpEtpnZ4Y1zzyiL8=">
+        <table:table data="${clientnotifications}" id="l_com_mihausik_bil_Clientnotification" path="/clientnotifications" z="z9C/e6IyXI25D43e5xtwPbDjPuw=">
+            <table:column id="c_com_mihausik_bil_Clientnotification_notiftype" property="notiftype" z="/BFMe5oqa1gZKI/DkkY7ZbDDwjs="/>
+            <table:column id="c_com_mihausik_bil_Clientnotification_contact" property="contact" z="xHmfjEhCUDWWo9hWX5eGppxpNYU="/>
+            <table:column id="c_com_mihausik_bil_Clientnotification_notificationsum" property="notificationsum" z="s5v8NDxel5fSzngx/OvhNhaHq9I="/>
+            <table:column id="c_com_mihausik_bil_Clientnotification_client" property="client" z="0aIplpF1ibYkQCsff8a8MtL4HB8="/>
+            <table:column id="c_com_mihausik_bil_Clientnotification_clientservice" property="clientservice" z="vc/5rJ7GHavpqIg0q7JjXM/9AI8="/>
+        </table:table>
+    </page:list>
+</div>

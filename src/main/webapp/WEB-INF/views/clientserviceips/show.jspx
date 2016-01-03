@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show create="false" id="ps_com_mihausik_bil_Clientserviceip" list="false" object="${clientserviceip}" path="/clientserviceips" z="user-managed">
+        <field:display field="clientservice" id="s_com_mihausik_bil_Clientserviceip_clientservice" object="${clientserviceip}" render="false" z="user-managed"/>
+        <field:display field="ip" id="s_com_mihausik_bil_Clientserviceip_ip" object="${clientserviceip}" z="0ldnLmpzVV4zT9lk0vN5llEu+9c="/>
+        <field:display field="mask" id="s_com_mihausik_bil_Clientserviceip_mask" object="${clientserviceip}" z="fvzr+mVyclZap791hSxP3n8kZQw="/>
+        <field:display field="gateway" id="s_com_mihausik_bil_Clientserviceip_gateway" object="${clientserviceip}" z="+5sYJwzQcdhIRpSDiVC8/iXoluI="/>
+        <field:display field="macaddr" id="s_com_mihausik_bil_Clientserviceip_macaddr" object="${clientserviceip}" z="y0JfM18EaJ/b2aB+/9qYTxSnJaQ="/>
+        <field:display field="iptype" id="s_com_mihausik_bil_Clientserviceip_iptype" object="${clientserviceip}" z="C1Y80YOB/9fCfWOtkvGdOBn9Rok="/>
+    </page:show>
+    <a href="/telebil/clientservices/${clientserviceip.clientservice.id}">Back</a>
+</div>

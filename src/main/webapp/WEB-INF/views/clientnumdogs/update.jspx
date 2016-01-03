@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Clientnumdog" modelAttribute="clientnumdog" path="/clientnumdogs" versionField="Version" z="Yyk903qcQcRM4zPj9KbO74Bryo8=">
+        <field:input field="nomerdogovora" id="c_com_mihausik_bil_Clientnumdog_nomerdogovora" z="GxlR+x/3EYx1saTZ2h7jYiAQr5s="/>
+        <field:datetime dateTimePattern="${clientnumdog_datazaklucheniya_date_format}" field="datazaklucheniya" id="c_com_mihausik_bil_Clientnumdog_datazaklucheniya" z="ccMsaGqY6CFdTcr1Y77YpuCMTPg="/>
+        <field:select field="client" id="c_com_mihausik_bil_Clientnumdog_client" itemLabel="clientname" itemValue="id" items="${clients}" path="/clients" z="user-managed"/>
+        <field:select field="clientservice" id="c_com_mihausik_bil_Clientnumdog_clientservice" itemValue="id" items="${clientservices}" path="/clientservices" z="2ncfpV7ajgF8VR5A3bWNmu5uEWU="/>
+    </form:update>
+</div>

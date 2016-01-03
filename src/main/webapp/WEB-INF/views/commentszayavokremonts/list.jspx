@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Commentszayavokremont" items="${commentszayavokremonts}" z="0LF0Ud6snc6xUcd/4YqcNTGmfV4=">
+        <table:table data="${commentszayavokremonts}" id="l_com_mihausik_bil_Commentszayavokremont" path="/commentszayavokremonts" z="A0AM58s6KR3o5+ytnm/hf3VkREA=">
+            <table:column id="c_com_mihausik_bil_Commentszayavokremont_comment" property="comment" z="UwMIdnN/xaTBUfNY41FsbV/PukQ="/>
+            <table:column id="c_com_mihausik_bil_Commentszayavokremont_manager" property="manager" z="qNHpUsqm1LMllNtaBb4+OMj0OtA="/>
+            <table:column id="c_com_mihausik_bil_Commentszayavokremont_zayavkanaremont" property="zayavkanaremont" z="ZHixzJGavls6CtY5F6ZeqOT7bao="/>
+        </table:table>
+    </page:list>
+</div>

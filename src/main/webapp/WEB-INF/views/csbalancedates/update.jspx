@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Csbalancedate" modelAttribute="csbalancedate" path="/csbalancedates" versionField="Version" z="e6hpJMbnvVvVl2HnQpvScWHKXvQ=">
+        <field:select field="clientservice" id="c_com_mihausik_bil_Csbalancedate_clientservice" itemValue="id" items="${clientservices}" path="/clientservices" z="4zlVKd931ctwQiZPUfub/FwNlqE="/>
+        <field:datetime dateTimePattern="${csbalancedate_date_date_format}" field="date" id="c_com_mihausik_bil_Csbalancedate_date" z="3lH5Smm6gNTpfofdxeBrtFrPpew="/>
+        <field:input field="balance" id="c_com_mihausik_bil_Csbalancedate_balance" validationMessageCode="field_invalid_number" z="ep7kXVDVBZluSCQBc5tKpT6jsvQ="/>
+    </form:update>
+</div>

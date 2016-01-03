@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Clientservicerecount" items="${clientservicerecounts}" z="FSaOGhg1ZnSM6sCnTfdeuxU75t8=">
+        <table:table create="false" data="${clientservicerecounts}" delete="false" id="l_com_mihausik_bil_Clientservicerecount" path="/clientservicerecounts" update="false" z="user-managed">
+            <table:column date="true" dateTimePattern="${clientservicerecount_datastartrecount_date_format}" id="c_com_mihausik_bil_Clientservicerecount_datastartrecount" property="datastartrecount" z="dEomXxjLxBi0Xz+3WnS7KNUr0dY="/>
+            <table:column date="true" dateTimePattern="${clientservicerecount_datastoprecount_date_format}" id="c_com_mihausik_bil_Clientservicerecount_datastoprecount" property="datastoprecount" z="LKZJyqWP8d8KcnQV0IfVNxsfpXk="/>
+            <table:column id="c_com_mihausik_bil_Clientservicerecount_clientservice" property="clientservice.service" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Clientservicerecount_status" property="status" z="F89ELr1KCPvr5YddiPxjTyjFguk="/>
+            <table:column id="c_com_mihausik_bil_Clientservicerecount_numdays" property="numdays" render="false" z="user-managed"/>
+        </table:table>
+        <br/>
+        <a href="/telebil/clientservices/${clientservices}">Back</a>
+    </page:list>
+</div>

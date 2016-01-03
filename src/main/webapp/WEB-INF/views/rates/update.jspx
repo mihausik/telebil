@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Rate" modelAttribute="rate" path="/rates" versionField="Version" z="pYKJT0yGBa/WqCdrrlqGHJ5CcNI=">
+        <field:input field="buy" id="c_com_mihausik_bil_Rate_buy" validationMessageCode="field_invalid_number" z="oUUGuYGGrzvo3RviyFoQYvN1ZZo="/>
+        <field:input field="name" id="c_com_mihausik_bil_Rate_name" z="dI3rWPOKujURvd5jqqrWCJUc5PI="/>
+        <field:input field="prefix" id="c_com_mihausik_bil_Rate_prefix" z="/R7yITJr/NjA/Q4F8eAvqgfrhAo="/>
+        <field:input field="sell" id="c_com_mihausik_bil_Rate_sell" validationMessageCode="field_invalid_number" z="estt18n1Uautl/8IXjeB3fk1viI="/>
+        <field:input field="trunk" id="c_com_mihausik_bil_Rate_trunk" z="jDD1D3bsmj03Ykd/3fUMUbT5dMU="/>
+        <field:select field="callplan" id="c_com_mihausik_bil_Rate_callplan" itemValue="id" items="${callplans}" path="/callplans" z="r1MRd0IN0Srk/+LBLlUx77XznaQ="/>
+        <field:input field="cutdigits" id="c_com_mihausik_bil_Rate_cutdigits" validationMessageCode="field_invalid_integer" z="BNY3RqbLtjZq4CEC3RiQDaTxRXk="/>
+        <field:input field="minduration" id="c_com_mihausik_bil_Rate_minduration" validationMessageCode="field_invalid_integer" z="wCt4BaN1BzVH8iCYVlKPw2LXeeQ="/>
+    </form:update>
+</div>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="clientservicecredits/list">
+        <put-attribute name="body" value="/WEB-INF/views/clientservicecredits/list.jspx"/>
+    </definition>
+<definition extends="default" name="clientservicecredits/show">
+        <put-attribute name="body" value="/WEB-INF/views/clientservicecredits/show.jspx"/>
+    </definition>
+<definition extends="default" name="clientservicecredits/create">
+        <put-attribute name="body" value="/WEB-INF/views/clientservicecredits/create.jsp"/>
+    </definition>
+    
+    <definition extends="default" name="clientservicecredits/nocredit">
+        <put-attribute name="body" value="/WEB-INF/views/clientservicecredits/nocredit.jsp"/>
+    </definition>
+    <definition extends="default" name="clientservicecredits/biggercredit">
+        <put-attribute name="body" value="/WEB-INF/views/clientservicecredits/biggercredit.jsp"/>
+    </definition>
+    
+<definition extends="default" name="clientservicecredits/update">
+        <put-attribute name="body" value="/WEB-INF/views/clientservicecredits/update.jspx"/>
+    </definition>
+</tiles-definitions>

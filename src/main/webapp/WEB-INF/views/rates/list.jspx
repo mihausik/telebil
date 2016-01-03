@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Rate" items="${rates}" z="duWWZgxe222PaWMfXeQFjIgdnTo=">
+        <table:table data="${rates}" id="l_com_mihausik_bil_Rate" path="/rates" z="mPsTjH9vlWfAdkNKwZQpbRBJIaQ=">
+            <table:column id="c_com_mihausik_bil_Rate_buy" property="buy" z="2knDItnmqBhmnUd7MlAj8i5uT88="/>
+            <table:column id="c_com_mihausik_bil_Rate_name" property="name" z="nTk4sgUFFwRigGeEcmswz7bkc0c="/>
+            <table:column id="c_com_mihausik_bil_Rate_prefix" property="prefix" z="uZqZsJ8T9d9+gOnuEz55Y+pIJIk="/>
+            <table:column id="c_com_mihausik_bil_Rate_sell" property="sell" z="C+dCkqFTkyNskzoMNmr71c33g98="/>
+            <table:column id="c_com_mihausik_bil_Rate_trunk" property="trunk" z="9j7xzaO0E1QX0zQ7y9P/rmFAlQA="/>
+            <table:column id="c_com_mihausik_bil_Rate_callplan" property="callplan" z="w5fhh52bNhm3klgQdcJccuSnFy4="/>
+        </table:table>
+    </page:list>
+</div>

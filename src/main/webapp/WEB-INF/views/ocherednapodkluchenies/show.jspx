@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Ocherednapodkluchenie" object="${ocherednapodkluchenie}" path="/ocherednapodkluchenies" z="m/yFwxjKKkeIZcTIESXqUZdj0ZQ=">
+        <field:display field="client" id="s_com_mihausik_bil_Ocherednapodkluchenie_client" object="${ocherednapodkluchenie}" render="false" z="user-managed"/>
+        <field:display field="manager" id="s_com_mihausik_bil_Ocherednapodkluchenie_manager" object="${ocherednapodkluchenie}" z="user-managed"/>
+        <field:display field="arhiv" id="s_com_mihausik_bil_Ocherednapodkluchenie_arhiv" object="${ocherednapodkluchenie}" z="1skbgG+7DUjTMpC9i7UtjNc75wI="/>
+        <field:display field="clientservice" id="s_com_mihausik_bil_Ocherednapodkluchenie_clientservice" object="${ocherednapodkluchenie}" z="Ad6GVBK+crCqj+yYljmKNJagLdg="/>
+        <field:display date="true" dateTimePattern="${ocherednapodkluchenie_datapodkluchenia_date_format}" field="datapodkluchenia" id="s_com_mihausik_bil_Ocherednapodkluchenie_datapodkluchenia" object="${ocherednapodkluchenie}" z="eIFGT1k8CtgZvTV/tSB1Fk0EuMQ="/>
+        <field:display date="true" dateTimePattern="${ocherednapodkluchenie_deadlinedate_date_format}" field="deadlinedate" id="s_com_mihausik_bil_Ocherednapodkluchenie_deadlinedate" object="${ocherednapodkluchenie}" z="zX8t2xAAvy8EEY4HUphT3c6NyV4="/>
+        <field:display field="supplier" id="s_com_mihausik_bil_Ocherednapodkluchenie_supplier" object="${ocherednapodkluchenie}" z="BZ6w2QEYvuFoVZc76PAej/7ulm0="/>
+    </page:show>
+</div>

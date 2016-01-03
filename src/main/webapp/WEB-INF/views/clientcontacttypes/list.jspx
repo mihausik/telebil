@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Clientcontacttype" items="${clientcontacttypes}" z="mrQEwsk7Ln132WXXpGQd4s//z9g=">
+        <table:table data="${clientcontacttypes}" id="l_com_mihausik_bil_Clientcontacttype" path="/clientcontacttypes" z="ouw1zs14M/P/no3WvDbbUxqW0dQ=">
+            <table:column id="c_com_mihausik_bil_Clientcontacttype_contacttype" property="contacttype" z="OdvwgI1GsSn2cpRTszK735IKIxA="/>
+        </table:table>
+    </page:list>
+</div>

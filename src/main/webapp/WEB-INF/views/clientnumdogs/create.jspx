@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_mihausik_bil_Clientnumdog" modelAttribute="clientnumdog" path="/clientnumdogs" render="${empty dependencies}" z="A9P2L92rHfm/oO6rIOYLQvuz9Go=">
+        <field:input field="nomerdogovora" id="c_com_mihausik_bil_Clientnumdog_nomerdogovora" z="GxlR+x/3EYx1saTZ2h7jYiAQr5s="/>
+        <field:datetime dateTimePattern="${clientnumdog_datazaklucheniya_date_format}" field="datazaklucheniya" id="c_com_mihausik_bil_Clientnumdog_datazaklucheniya" z="ccMsaGqY6CFdTcr1Y77YpuCMTPg="/>
+        <field:select field="client" id="c_com_mihausik_bil_Clientnumdog_client" itemValue="id" items="${clients}" path="/clients" z="PM/gPnBhtetPHBTPkc6rok1an9s="/>
+        <field:select field="clientservice" id="c_com_mihausik_bil_Clientnumdog_clientservice" itemValue="id" items="${clientservices}" path="/clientservices" z="2ncfpV7ajgF8VR5A3bWNmu5uEWU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_mihausik_bil_Clientnumdog" render="${not empty dependencies}" z="+ihqwscw9yTT2JQSQXMDsqcRJis="/>
+</div>

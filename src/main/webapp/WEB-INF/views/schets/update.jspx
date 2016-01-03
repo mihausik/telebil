@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Schet" modelAttribute="schet" path="/schets/update" versionField="Version" z="user-managed">
+        <field:select field="client" id="c_com_mihausik_bil_Schet_client" itemLabel="clientname" itemValue="id" items="${clients}" path="/clients" z="user-managed"/>
+        <field:file field="schet" id="c_com_mihausik_bil_Schet_schet" z="user-managed"/>
+        <field:input field="contentType" id="c_com_mihausik_bil_Schet_contentType" z="JcTmdWHkEe/rPjX/i2+UZ57l/Cg="/>
+        <field:input field="filesize" id="c_com_mihausik_bil_Schet_filesize" validationMessageCode="field_invalid_integer" z="0BpT/BqucbqfLf2NqucxCBgSvFw="/>
+        <field:input field="filepath" id="c_com_mihausik_bil_Schet_filepath" z="IE4+arVzy1qKTOWyNDU/9wB39iM="/>
+        <field:input field="filename" id="c_com_mihausik_bil_Schet_filename" z="dWS2jN9ytEqCvZSmP+IMe4uRDQM="/>
+    </form:update>
+</div>

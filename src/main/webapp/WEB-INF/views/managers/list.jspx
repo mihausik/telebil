@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Manager" items="${managers}" z="J3QqhkGOX2bT4/gU8WNsMbmm3Lk=">
+        <table:table data="${managers}" id="l_com_mihausik_bil_Manager" path="/managers" z="nn6B+Ihfzih8GGcnxrehEPRYNAU=">
+            <table:column id="c_com_mihausik_bil_Manager_manname" property="manname" z="JPghIepJlWsw7b/HXJJE6gjgPOM="/>
+            <table:column id="c_com_mihausik_bil_Manager_password" property="password" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Manager_enable" property="enable" z="/f9+nnhu/hjcwGYeW+yG0TrkSEU="/>
+            <table:column id="c_com_mihausik_bil_Manager_login" property="login" z="t6GBBb1hfgLo1QFjgDSbJhdag2I="/>
+            <table:column id="c_com_mihausik_bil_Manager_doljnost" property="doljnost.dolname" z="user-managed"/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Clientservice" items="${clientservices}" z="5CqPyZjHTgLDUg6zi5RLcoQu6kE=">
+        <table:table data="${clientservices}" id="l_com_mihausik_bil_Clientservice" path="/clientservices" update="true" z="user-managed">
+            <table:column id="c_com_mihausik_bil_Clientservice_client" property="client.clientname" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Clientservice_balance" property="balance" z="2P6B1BV7H7ThbGUNjyHliP/rCH8="/>
+            <table:column id="c_com_mihausik_bil_Clientservice_service" property="service" z="aVzha03uKsBl91vCQE1kk1+edK4="/>
+            <table:column id="c_com_mihausik_bil_Clientservice_addresspreduslugi" property="addresspreduslugi" z="zqWtnnpE4eOyxkwNGxO2RtNfwmA="/>
+            <table:column id="c_com_mihausik_bil_Clientservice_commutator" property="commutator" z="+r33JHbUyk9SnkfOqV0f6FDFkA0="/>
+            <table:column id="c_com_mihausik_bil_Clientservice_callplan" property="callplan" z="lvZzkftd3q+j9Nraqcrm1eJdiPY="/>
+        </table:table>
+    </page:list>
+</div>

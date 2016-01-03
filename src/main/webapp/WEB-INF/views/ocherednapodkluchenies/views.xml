@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="ocherednapodkluchenies/list">
+        <put-attribute name="body" value="/WEB-INF/views/ocherednapodkluchenies/list.jspx"/>
+    </definition>
+<definition extends="default" name="ocherednapodkluchenies/show">
+        <put-attribute name="body" value="/WEB-INF/views/ocherednapodkluchenies/show.jsp"/>
+    </definition>
+<definition extends="default" name="ocherednapodkluchenies/create">
+        <put-attribute name="body" value="/WEB-INF/views/ocherednapodkluchenies/create.jsp"/>
+    </definition>
+<definition extends="default" name="ocherednapodkluchenies/update">
+        <put-attribute name="body" value="/WEB-INF/views/ocherednapodkluchenies/update.jsp"/>
+    </definition>
+</tiles-definitions>

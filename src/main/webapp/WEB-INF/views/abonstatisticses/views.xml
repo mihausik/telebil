@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="abonstatisticses/list">
+        <put-attribute name="body" value="/WEB-INF/views/abonstatisticses/list.jsp"/>
+    </definition>
+<definition extends="default" name="abonstatisticses/show">
+        <put-attribute name="body" value="/WEB-INF/views/abonstatisticses/show.jspx"/>
+    </definition>
+<definition extends="default" name="abonstatisticses/create">
+        <put-attribute name="body" value="/WEB-INF/views/abonstatisticses/create.jspx"/>
+    </definition>
+<definition extends="default" name="abonstatisticses/update">
+        <put-attribute name="body" value="/WEB-INF/views/abonstatisticses/update.jspx"/>
+    </definition>
+<definition extends="default" name="abonstatisticses/findAbonstatisticsesBySupplier">
+        <put-attribute name="body" value="/WEB-INF/views/abonstatisticses/findAbonstatisticsesBySupplier.jspx"/>
+    </definition>
+<definition extends="default" name="abonstatisticses/findAbonstatisticsesByDateBetween">
+        <put-attribute name="body" value="/WEB-INF/views/abonstatisticses/findAbonstatisticsesByDateBetween.jspx"/>
+    </definition>
+</tiles-definitions>

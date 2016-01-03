@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Commentszayavokremont" object="${commentszayavokremont}" path="/commentszayavokremonts" z="sMwu1kEQHHn/jn/fsTFZPQqg46c=">
+        <field:display field="comment" id="s_com_mihausik_bil_Commentszayavokremont_comment" object="${commentszayavokremont}" z="Oi5kfhncwueQhdR7wCBXzabemM8="/>
+        <field:display field="manager" id="s_com_mihausik_bil_Commentszayavokremont_manager" object="${commentszayavokremont}" z="kS5s2Y/sTcIiYoZkVz/EbFp62A4="/>
+        <field:display field="zayavkanaremont" id="s_com_mihausik_bil_Commentszayavokremont_zayavkanaremont" object="${commentszayavokremont}" z="B4cniDuqNCTCQ0P3yf984NAT27s="/>
+    </page:show>
+</div>

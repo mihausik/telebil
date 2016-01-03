@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Clientservicestreet" label="адрес предоставления услуги" object="${clientservicestreet}" path="/clientservicestreets" z="user-managed">
+        <field:display field="citystreets" id="s_com_mihausik_bil_Clientservicestreet_citystreets" object="${clientservicestreet}" z="GrO6ESTkk7e3xnIN5Yghh+TOgOg="/>
+        <field:display field="clientservice" id="s_com_mihausik_bil_Clientservicestreet_clientservice" object="${clientservicestreet}" render="false" z="user-managed"/>
+        <field:display field="housenum" id="s_com_mihausik_bil_Clientservicestreet_housenum" object="${clientservicestreet}" z="RnK6tOYVDaFFjoX2ye1mVgxoj68="/>
+        <field:display field="city" id="s_com_mihausik_bil_Clientservicestreet_city" object="${clientservicestreet}" z="VXuAIVINDhXBDA3C30xeYzN7fyo="/>
+        <field:display field="appartment" id="s_com_mihausik_bil_Clientservicestreet_appartment" object="${clientservicestreet}" z="FHTiCCeBQOiRHftrsetf/PY4O9I="/>
+    </page:show>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Device" object="${device}" path="/devices" z="X5XcoLsLH4Sx9IMnOlMJrvFEQB8=">
+        <field:display field="devname" id="s_com_mihausik_bil_Device_devname" object="${device}" z="iLhV4tIB4dA071ffyh/jMVQqo8E="/>
+        <field:display field="serialnum" id="s_com_mihausik_bil_Device_serialnum" object="${device}" z="2dnDsLZwnIbsii8FAeDL04/CXtM="/>
+        <field:display field="devtype" id="s_com_mihausik_bil_Device_devtype" object="${device}" z="Ser3MgMtWvaC2cjp+EiucCWfZyo="/>
+        <field:display field="price" id="s_com_mihausik_bil_Device_price" object="${device}" z="V+7+Ke5cp2xmsGSRyZ8piDmZjvw="/>
+    </page:show>
+</div>

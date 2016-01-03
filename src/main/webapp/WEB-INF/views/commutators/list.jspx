@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Commutator" items="${commutators}" z="2vvJGpG6joKaDVZlBx9uxxvD3Jc=">
+        <table:table data="${commutators}" id="l_com_mihausik_bil_Commutator" path="/commutators" z="WALFhFL+ayB5DQuss8VNGDZUiOE=">
+            <table:column id="c_com_mihausik_bil_Commutator_comname" property="comname" z="Nqgs3RPz3vQjrS742U7WcipbDDw="/>
+            <table:column id="c_com_mihausik_bil_Commutator_kolportov" property="kolportov" z="x6fnBGDiqNqw2WPibeGlRFsJdQ0="/>
+            <table:column id="c_com_mihausik_bil_Commutator_description" property="description" z="26b5umxiZsIjAp0rZqm0W10sUe0="/>
+        </table:table>
+    </page:list>
+</div>

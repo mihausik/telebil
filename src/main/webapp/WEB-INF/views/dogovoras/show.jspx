@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Dogovora" object="${dogovora}" path="/dogovoras" z="nhN1w8j98i2PfJwc5abqrUsXbA8=">
+    <field:display field="supplier" id="s_com_mihausik_bil_Dogovora_supplier" object="${dogovora}" z="y4PFYR8uOxv/UFrlidP6OuRaRmU="/>
+        <field:display field="viddogovora" id="s_com_mihausik_bil_Dogovora_viddogovora" object="${dogovora}" z="jLqdKSRH7dKhbcTiEotZpJXgnDA="/>
+        <field:display field="nomerdogovora" id="s_com_mihausik_bil_Dogovora_nomerdogovora" object="${dogovora}" z="wsd9ovx7Fk5PAQYULEuvhxcm4jw="/>
+        <field:display date="true" dateTimePattern="${dogovora_datadogovora_date_format}" field="datadogovora" id="s_com_mihausik_bil_Dogovora_datadogovora" object="${dogovora}" z="8O48IevQjNAwq/Ce2nIWuWEBMow="/>
+        <field:display field="contragent" id="s_com_mihausik_bil_Dogovora_contragent" object="${dogovora}" z="NuYhZdyQEBX79BuwSgA1K1RDyMA="/>
+        <field:display field="nazvaniedog" id="s_com_mihausik_bil_Dogovora_nazvaniedog" object="${dogovora}" z="uNLUKUNG4RKSYnlIiXLFG17B580="/>
+        <field:display field="soderjaniedogovora" id="s_com_mihausik_bil_Dogovora_soderjaniedogovora" object="${dogovora}" z="zWXHNAZWdBgyHZMhA6/A0Eu8FgI="/>
+        <field:display field="predmetdogovora" id="s_com_mihausik_bil_Dogovora_predmetdogovora" object="${dogovora}" z="1EA9zNsoN3tXpSdN1V1PgpgXXJk="/>
+        <field:display field="promechaniya" id="s_com_mihausik_bil_Dogovora_promechaniya" object="${dogovora}" z="k8jwi+ulM+FJtzJdSyed47lrQjs="/>
+        <field:display field="otvetstvennuychel" id="s_com_mihausik_bil_Dogovora_otvetstvennuychel" object="${dogovora}" z="Fa1clm2BwI5yxexK8sPx8qwdwyk="/>
+    </page:show>
+</div>

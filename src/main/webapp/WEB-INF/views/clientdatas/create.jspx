@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_mihausik_bil_Clientdata" modelAttribute="clientdata" path="/clientdatas" render="${empty dependencies}" z="tuugvf2tmR7MKtgVFl9N4Z3jYg8=">
+        <field:select field="contacttype" id="c_com_mihausik_bil_Clientdata_contacttype" itemLabel="contacttype" itemValue="id" items="${clientcontacttypes}" path="/clientcontacttypes" z="user-managed"/>
+        <field:select field="contactname" id="c_com_mihausik_bil_Clientdata_contactname" itemLabel="contact" itemValue="id" items="${clientcontacts}" path="/clientcontacts" z="user-managed"/>
+        <field:select field="client" id="c_com_mihausik_bil_Clientdata_client" itemLabel="clientname" itemValue="id" items="${clients}" path="/clients" z="user-managed"/>
+        <field:input field="contact" id="c_com_mihausik_bil_Clientdata_contact" z="bkclFRjermXGNwET6wmwXUBK2N4="/>
+        <field:input field="fio" id="c_com_mihausik_bil_Clientdata_fio" z="XzudzA3+DyCk0emOoZ1QKh/5ysQ="/>
+        <field:input field="doljnost" id="c_com_mihausik_bil_Clientdata_doljnost" z="j0eQ8pBJpnjSpXngO9li90K315s="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_mihausik_bil_Clientdata" render="${not empty dependencies}" z="/X1QFJAV43G1ElRxYqVTx9+9hwE="/>
+</div>

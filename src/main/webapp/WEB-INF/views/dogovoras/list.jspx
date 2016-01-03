@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Dogovora" items="${dogovoras}" z="RjEqK16j2chFISU4XVpi8iLxrro=">
+        <table:table data="${dogovoras}" id="l_com_mihausik_bil_Dogovora" path="/dogovoras" z="v9bzN8cSy+QsKgH5rG6biROSk8M=">
+            <table:column id="c_com_mihausik_bil_Dogovora_nomerdogovora" property="nomerdogovora" z="uC+j8JDt3JXSygfAdijGTnzXFYE="/>
+            <table:column date="true" dateTimePattern="${dogovora_datadogovora_date_format}" id="c_com_mihausik_bil_Dogovora_datadogovora" property="datadogovora" z="1EyQZZ8n2KxDGJEUifC3nnx7cAg="/>
+            <table:column id="c_com_mihausik_bil_Dogovora_contragent" property="contragent" z="nvlSwixFX5wVKkxFb5aeKXIWIMA="/>
+            <table:column id="c_com_mihausik_bil_Dogovora_nazvaniedog" property="nazvaniedog" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Dogovora_soderjaniedogovora" property="soderjaniedogovora" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Dogovora_predmetdogovora" property="predmetdogovora" render="false" z="user-managed"/>
+        </table:table>
+    </page:list>
+</div>

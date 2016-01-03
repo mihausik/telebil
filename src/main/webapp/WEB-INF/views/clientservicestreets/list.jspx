@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Clientservicestreet" items="${clientservicestreets}" z="7KlTPsZcD4Xt0NVqs1wl3QN0ibw=">
+        <table:table data="${clientservicestreets}" id="l_com_mihausik_bil_Clientservicestreet" path="/clientservicestreets" z="7cHikn4qTzvfg1Z4FkzUqPcI4nA=">
+            <table:column id="c_com_mihausik_bil_Clientservicestreet_citystreets" property="citystreets" z="RTuMVBYMtQmL/zxPr3k7CkexLJw="/>
+            <table:column id="c_com_mihausik_bil_Clientservicestreet_clientservice" property="clientservice" z="lAg/PobY/ZNeFzVTzsFIq62cnFE="/>
+            <table:column id="c_com_mihausik_bil_Clientservicestreet_housenum" property="housenum" z="7RhQRU+vnFksNbuuy8SHd5z3/as="/>
+            <table:column id="c_com_mihausik_bil_Clientservicestreet_city" property="city" z="QT4k+1lG5zUhbfyukRc8JywpZzY="/>
+            <table:column id="c_com_mihausik_bil_Clientservicestreet_appartment" property="appartment" z="q1PDR2k4zfeTJy8y1likldQekhY="/>
+        </table:table>
+    </page:list>
+</div>

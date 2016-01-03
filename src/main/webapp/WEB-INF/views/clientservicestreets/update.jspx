@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Clientservicestreet" modelAttribute="clientservicestreet" path="/clientservicestreets" versionField="Version" z="1YVnSweySfFo5fWiv55ept7vZ/0=">
+        <field:select field="citystreets" id="c_com_mihausik_bil_Clientservicestreet_citystreets" itemValue="id" items="${citystreetses}" path="/citystreetses" z="FLYEz3JMDBiHaE0Ob5Yeu+IIUIY="/>
+        <field:select field="clientservice" id="c_com_mihausik_bil_Clientservicestreet_clientservice" itemValue="id" items="${clientservices}" path="/clientservices" z="+2XQL+uLnc8rXpIQ6oKfqOl0Qkw="/>
+        <field:input field="housenum" id="c_com_mihausik_bil_Clientservicestreet_housenum" z="EJ4bjl8t7FXrBtaxCUAvgh378xw="/>
+        <field:input field="city" id="c_com_mihausik_bil_Clientservicestreet_city" z="A8RfZV7ACmq3w0Jui/SYFfS/dx8="/>
+        <field:input field="appartment" id="c_com_mihausik_bil_Clientservicestreet_appartment" z="L+T02VYQpjywtxig9gV5vX1O0xs="/>
+    </form:update>
+</div>

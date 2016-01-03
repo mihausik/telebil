@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Csbalancedate" items="${csbalancedates}" z="4hVpG4OUfcAEhJERTd4EwMEq9dU=">
+        <table:table create="false" data="${csbalancedates}" delete="false" id="l_com_mihausik_bil_Csbalancedate" path="/csbalancedates" update="false" z="user-managed">
+            <table:column id="c_com_mihausik_bil_Csbalancedate_clientservice" property="clientservice.service" z="user-managed"/>
+            <table:column date="true" dateTimePattern="${csbalancedate_date_date_format}" id="c_com_mihausik_bil_Csbalancedate_date" property="date" z="fzMiizQZW6kKVat9HqHI5AKfk0E="/>
+            <table:column id="c_com_mihausik_bil_Csbalancedate_balance" property="balance" z="ccVNm92Gi6gk8G/XY53g6UYP6ts="/>
+        </table:table>
+        <br/>
+        
+        <a href="/telebil/clients/${csbalancedatesclient}">назад</a>
+    </page:list>
+</div>

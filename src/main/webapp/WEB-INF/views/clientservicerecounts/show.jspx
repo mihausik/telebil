@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show create="false" delete="false" id="ps_com_mihausik_bil_Clientservicerecount" list="false" object="${clientservicerecount}" path="/clientservicerecounts" update="false" z="user-managed">
+        <field:display date="true" dateTimePattern="${clientservicerecount_datastartrecount_date_format}" field="datastartrecount" id="s_com_mihausik_bil_Clientservicerecount_datastartrecount" object="${clientservicerecount}" z="j1Up5QDgnwXJ3IH/4QNWbltMLN4="/>
+        <field:display date="true" dateTimePattern="${clientservicerecount_datastoprecount_date_format}" field="datastoprecount" id="s_com_mihausik_bil_Clientservicerecount_datastoprecount" object="${clientservicerecount}" z="37z+XcYYnqLnF4hLio9amNnUS84="/>
+        <field:display field="clientservice" id="s_com_mihausik_bil_Clientservicerecount_clientservice" object="${clientservicerecount}" z="1bL2Q6yh0Fr+PhJowGVzoxm5CeY="/>
+        <field:display field="status" id="s_com_mihausik_bil_Clientservicerecount_status" object="${clientservicerecount}" z="FbbVNHkHPalLfppfOdlbXh+olPQ="/>
+        <field:display field="numdays" id="s_com_mihausik_bil_Clientservicerecount_numdays" object="${clientservicerecount}" z="VFD4YkCc/GmwOuGU3YO7E7bLxc4="/>
+    </page:show>
+</div>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Client" modelAttribute="client" path="/clients" versionField="Version" z="8NhqfG0IujtEfvkfRiPcAKCxz8U=">
+        <field:select field="statuslica" id="c_com_mihausik_bil_Client_statuslica" itemValue="id" items="${statuslicas}" path="/statuslicas" z="UuEb5LDbz2cGWOgkeAMYNxfqIvM="/>
+     :
+        <field:input field="clientname" id="c_com_mihausik_bil_Client_clientname" z="hgN70L8zdSL2tOtG6scAUqJSeQ4="/>
+        <field:select field="yurstatus" id="c_com_mihausik_bil_Client_yurstatus" itemValue="id" items="${yurstatuses}" path="/yurstatuses" z="BPsXDK1CWZtZX1U0BNhHwxeq5SM="/>
+        <field:input field="yurcity" id="c_com_mihausik_bil_Client_yurcity" z="6fxO3z0C1asaCbDyRBQJH4Gw00M="/>
+        <field:input field="yurpostindex" id="c_com_mihausik_bil_Client_yurpostindex" z="i0vAmeSBUDMO955JfIYzmo+iaQo="/>
+        <field:input field="yurhousenum" id="c_com_mihausik_bil_Client_yurhousenum" z="Cvi4LIN2xPAUfqqNEi+kRvg0+/4="/>
+        <field:input field="yurofficenum" id="c_com_mihausik_bil_Client_yurofficenum" z="84HdQj08B09AueNtIzDNL2Qeeks="/>
+        <field:input field="yuredrpou" id="c_com_mihausik_bil_Client_yuredrpou" z="IrW7MMh0ghjxUvwDnpXCCZmrYKU="/>
+        <field:input field="yurnumbersvidplatnds" id="c_com_mihausik_bil_Client_yurnumbersvidplatnds" z="D64pFXlwpjhDQUxKcF+FdEMWeeM="/>
+        <field:input field="yurindividnagkod" id="c_com_mihausik_bil_Client_yurindividnagkod" z="Pw3VE4Ob9h51ahpvoPThl1Nc64Q="/>
+      :
+        
+        <field:input field="fizclientname" id="c_com_mihausik_bil_Client_fizclientname" z="4pVmU961olbYPuTsnotHgzvUZhg="/>
+        <field:input field="fizcity" id="c_com_mihausik_bil_Client_fizcity" z="hCFJ+BkmmdEinGCgtmmvcMFD+14="/>
+        <field:input field="fizpostindex" id="c_com_mihausik_bil_Client_fizpostindex" z="uMu2Du1H0Tv5XzCp0xN96Q86Hco="/>
+        <field:input field="fizhousenum" id="c_com_mihausik_bil_Client_fizhousenum" z="UK2NJuMk3rLMaySbGa+Ry7llcRM="/>
+        <field:input field="fizofficenum" id="c_com_mihausik_bil_Client_fizofficenum" z="7+Rts2nm1GEV1SyPCBkoNFy+OjQ="/>
+       
+      :  
+        <field:input field="numberraschscheta" id="c_com_mihausik_bil_Client_numberraschscheta" z="Gm7zhnk/DmqYYXT0ziZjBVkxKwI="/>
+        <field:input field="mfo" id="c_com_mihausik_bil_Client_mfo" z="fWTwJ/5AdNeV8vYqqIggWT99N1o="/>
+        <field:input field="bank" id="c_com_mihausik_bil_Client_bank" z="mWzYDsUlqv4MdsD83FRxBucwUzE="/>
+:
+        <field:select field="manager" id="c_com_mihausik_bil_Client_manager" itemValue="id" items="${managers}" path="/managers" z="29cn2yqfi7a9oJ9ogAbcaqrAgfI="/>
+        <field:select field="supplier" id="c_com_mihausik_bil_Client_supplier" itemValue="id" items="${suppliers}" path="/suppliers" z="aIxIpJ7zgzodpYG3WTpy5ho++k0="/>
+        <field:input field="fizedrpou" id="c_com_mihausik_bil_Client_fizedrpou" z="6FFRTZRcjm7qtdPXvnih5nouexo="/>
+        <field:input field="fiznumbersvidplatnds" id="c_com_mihausik_bil_Client_fiznumbersvidplatnds" z="dz8VCy7fm7/4qmqEdSFvoQHhX3s="/>
+        <field:input field="fizindividnagkod" id="c_com_mihausik_bil_Client_fizindividnagkod" z="WhHCbg+FiaZGnmLDryQTp12C1Q0="/>
+        <field:input field="yurstreet" id="c_com_mihausik_bil_Client_yurstreet" z="07On8tOxxjOhSERgw8diaNd45Dw="/>
+        <field:input field="fizstreet" id="c_com_mihausik_bil_Client_fizstreet" z="LRLWV5J3LFKp3+c9xnr9BR2i+qk="/>
+        <field:input field="fiodirector" id="c_com_mihausik_bil_Client_fiodirector" z="cQ8r/SiBL/vMK9lgQJnZpgO3G5Q="/>
+        <field:input field="clientweblogin" id="c_com_mihausik_bil_Client_clientweblogin" z="lFt0QdE0V8095zhOxjmXA/1Qd8k="/>
+        <field:input field="clientwebpass" id="c_com_mihausik_bil_Client_clientwebpass" z="ecRRG5cqY05njnuczaepa3mktco="/>
+        <field:checkbox field="clientwebenable" id="c_com_mihausik_bil_Client_clientwebenable" z="bgKqit6iYkLucKTWJ+6c3YBqqAg="/>
+        <field:input field="authority" id="c_com_mihausik_bil_Client_authority" z="DRhy8ZUFfhQDixg5vu2GZEty+9E="/>
+        <field:input field="balancesumarniy" id="c_com_mihausik_bil_Client_balancesumarniy" validationMessageCode="field_invalid_number" z="B4PgcXDhSR60GPW388EGT9ztE3g="/>
+    </form:update>
+</div>

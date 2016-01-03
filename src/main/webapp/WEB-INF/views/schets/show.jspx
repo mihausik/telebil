@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Schet" object="${schet}" path="/schets" z="t4172HfK7DLzjt65c12B3lsmx7s=">
+        <field:display field="client" id="s_com_mihausik_bil_Schet_client" object="${schet}" z="3z1gzG9WUuvk61z1G1xegl0iogM="/>
+        <field:display field="contentType" id="s_com_mihausik_bil_Schet_contentType" object="${schet}" render="false" z="user-managed"/>
+        <field:display field="schet" id="s_com_mihausik_bil_Schet_schet" object="${schet}" render="false" z="user-managed"/>
+        <a href="http://10.128.0.10/scheta/${schet.filename}">Download</a>
+        <field:display field="filesize" id="s_com_mihausik_bil_Schet_filesize" object="${schet}" render="false" z="user-managed"/>
+        <field:display field="filepath" id="s_com_mihausik_bil_Schet_filepath" object="${schet}" render="false" z="user-managed"/>
+        <field:display field="filename" id="s_com_mihausik_bil_Schet_filename" object="${schet}" render="false" z="user-managed"/>
+    </page:show>
+</div>

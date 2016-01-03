@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show create="false" id="ps_com_mihausik_bil_Clientnumdog" list="false" object="${clientnumdog}" path="/clientnumdogs" z="user-managed">
+        <field:display field="nomerdogovora" id="s_com_mihausik_bil_Clientnumdog_nomerdogovora" object="${clientnumdog}" z="FlJfaI+4mp4eef6rm+dtYlGTbrw="/>
+        <field:display date="true" dateTimePattern="${clientnumdog_datazaklucheniya_date_format}" field="datazaklucheniya" id="s_com_mihausik_bil_Clientnumdog_datazaklucheniya" object="${clientnumdog}" z="1nX540QFNQZPg2NibjaQq4jy7Yg="/>
+        <field:display field="client" id="s_com_mihausik_bil_Clientnumdog_client" object="${clientnumdog}" z="xIrEm7BuXnGziZt8jUBHNILyhu4="/>
+        <field:display field="clientservice" id="s_com_mihausik_bil_Clientnumdog_clientservice" object="${clientnumdog}" z="9qC9L61QZUGocJGwfWjRbyhYa0o="/>
+    </page:show>
+</div>

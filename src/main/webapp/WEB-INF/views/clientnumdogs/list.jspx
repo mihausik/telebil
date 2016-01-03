@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Clientnumdog" items="${clientnumdogs}" z="dP1i3vxtrMlyuKsazPu3Mtz5KcY=">
+        <table:table data="${clientnumdogs}" id="l_com_mihausik_bil_Clientnumdog" path="/clientnumdogs" z="CzGzzrdLm7NoadibnQpvtiMTAWg=">
+            <table:column id="c_com_mihausik_bil_Clientnumdog_nomerdogovora" property="nomerdogovora" z="dUNVGWxmTUVSY8hsGZ3XMVGQRfQ="/>
+            <table:column date="true" dateTimePattern="${clientnumdog_datazaklucheniya_date_format}" id="c_com_mihausik_bil_Clientnumdog_datazaklucheniya" property="datazaklucheniya" z="2F0wPc6DZtsdmCnbVgfmZx2SR1s="/>
+            <table:column id="c_com_mihausik_bil_Clientnumdog_client" property="client" z="07VIHz28VKHpG2mO/Kdw5VcUws4="/>
+            <table:column id="c_com_mihausik_bil_Clientnumdog_clientservice" property="clientservice" z="Z4okzQBQvhRDV2ZWH7vFmfTtABU="/>
+        </table:table>
+    </page:list>
+</div>

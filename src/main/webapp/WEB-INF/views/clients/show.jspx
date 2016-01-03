@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Client" object="${client}" path="/clients" z="gtoJJ3+vr/HEQ5QAcU+d3QNxFic=">
+        <field:display field="statuslica" id="s_com_mihausik_bil_Client_statuslica" object="${client}" z="lJy/ady3inYBnpGOni1mxMyTmwE="/>
+:
+<field:display field="clientname" id="s_com_mihausik_bil_Client_clientname" object="${client}" z="khYbi5EW2G1MAlWn6cMmpvVh9Lw="/>
+        <field:display field="yurstatus" id="s_com_mihausik_bil_Client_yurstatus" object="${client}" z="eej+hPQMq9xUfm44LHcq7kkoSQs="/>
+        <field:display field="yurcity" id="s_com_mihausik_bil_Client_yurcity" object="${client}" z="vU+nZNt2aYpCLtarm3/Tqvtk774="/>
+        <field:display field="yurpostindex" id="s_com_mihausik_bil_Client_yurpostindex" object="${client}" z="jMj/7NpDv/rm7hLdvsAPLENTvMI="/>
+        <field:display field="yurhousenum" id="s_com_mihausik_bil_Client_yurhousenum" object="${client}" z="pbvh2WAdyv2dzId7rG23dmX37Ow="/>
+        <field:display field="yurofficenum" id="s_com_mihausik_bil_Client_yurofficenum" object="${client}" z="/U6WO/Jeel7zPo38xLrGiQdu+5s="/>
+        <field:display field="yuredrpou" id="s_com_mihausik_bil_Client_yuredrpou" object="${client}" z="OGWz0F4vqj6qlDJa9wKSAR4z1WI="/>
+        <field:display field="yurnumbersvidplatnds" id="s_com_mihausik_bil_Client_yurnumbersvidplatnds" object="${client}" z="hc7rCdnrkFXm7tSBsHYyUyCO5zA="/>
+        <field:display field="yurindividnagkod" id="s_com_mihausik_bil_Client_yurindividnagkod" object="${client}" z="rerJACp1iVL2QEEcHIEEuhOPrIg="/>
+: 
+   <field:display field="fizclientname" id="s_com_mihausik_bil_Client_fizclientname" object="${client}" z="3rKK8mOXnhFOMOGcntBLLnm7bco="/>
+        <field:display field="fizcity" id="s_com_mihausik_bil_Client_fizcity" object="${client}" z="K942LeivZgRjkteiX2w0KP35AiA="/>
+        <field:display field="fizpostindex" id="s_com_mihausik_bil_Client_fizpostindex" object="${client}" z="6LovWFE9X/Rqhzec7lw/xTt9VG4="/>
+        <field:display field="fizhousenum" id="s_com_mihausik_bil_Client_fizhousenum" object="${client}" z="s8QUHBzddRR6y6CAKYb5QP+8omY="/>
+        <field:display field="fizofficenum" id="s_com_mihausik_bil_Client_fizofficenum" object="${client}" z="41ROa4yuCG+hycUyyD95wP9yhIs="/>
+      :
+        <field:display field="numberraschscheta" id="s_com_mihausik_bil_Client_numberraschscheta" object="${client}" z="iqXyk7wCWRaLgPOvfR4BrtZeXtE="/>
+        <field:display field="mfo" id="s_com_mihausik_bil_Client_mfo" object="${client}" z="nMylxTGy7AUEutqWRb6g5pPkEsI="/>
+        <field:display field="bank" id="s_com_mihausik_bil_Client_bank" object="${client}" z="oFJJ1uKMwTXg/KasowU6xB1C5Xk="/>
+:
+<field:display field="manager" id="s_com_mihausik_bil_Client_manager" object="${client}" z="MyTEkPpAsOxJDTKvNh+JxMn4ykk="/>
+        <field:display field="supplier" id="s_com_mihausik_bil_Client_supplier" object="${client}" z="7Scg6OisIeRhqYzcmAdMWkSdlwM="/>
+        <field:display field="fizedrpou" id="s_com_mihausik_bil_Client_fizedrpou" object="${client}" z="+py4AgRajpEbi/0zc5MjdEzMz6c="/>
+        <field:display field="fiznumbersvidplatnds" id="s_com_mihausik_bil_Client_fiznumbersvidplatnds" object="${client}" z="bBejiIyZRDYTE49CnJNAIRzEEKI="/>
+        <field:display field="fizindividnagkod" id="s_com_mihausik_bil_Client_fizindividnagkod" object="${client}" z="X01WSz9KQQCy93C4rVtaujG/epA="/>
+        <field:display field="yurstreet" id="s_com_mihausik_bil_Client_yurstreet" object="${client}" z="gOaSMC4Qg8crxToWocMvUJzu13c="/>
+        <field:display field="fizstreet" id="s_com_mihausik_bil_Client_fizstreet" object="${client}" z="9F6O2faRggyxMfVKB7+QFijaXHQ="/>
+        <field:display field="fiodirector" id="s_com_mihausik_bil_Client_fiodirector" object="${client}" z="q0s1FrLSLP65LAT68UCvNJfuaPI="/>
+        <field:display field="clientweblogin" id="s_com_mihausik_bil_Client_clientweblogin" object="${client}" z="Qk4FfyqGH4rhIq8qpwlCPKK/kGk="/>
+        <field:display field="clientwebpass" id="s_com_mihausik_bil_Client_clientwebpass" object="${client}" z="xCNOczP77n73nCOHnipYqMjgRT4="/>
+        <field:display field="clientwebenable" id="s_com_mihausik_bil_Client_clientwebenable" object="${client}" z="cDRMojTyZ9Rr03HPIxYMEP0Mjrg="/>
+        <field:display field="authority" id="s_com_mihausik_bil_Client_authority" object="${client}" z="zXS9ByG1It8Beavgg4qsNvN9J6c="/>
+        <field:display field="balancesumarniy" id="s_com_mihausik_bil_Client_balancesumarniy" object="${client}" z="0GGuQ5NxQkc1vBtYCLxf9uExXJU="/>
+    </page:show>
+</div>

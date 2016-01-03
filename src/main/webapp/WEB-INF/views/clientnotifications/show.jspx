@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show create="false" id="ps_com_mihausik_bil_Clientnotification" list="false" object="${clientnotification}" path="/clientnotifications" z="user-managed">
+        <field:display field="notiftype" id="s_com_mihausik_bil_Clientnotification_notiftype" object="${clientnotification}" z="8wGglC9dfj9asfVHsR/oawDn4bE="/>
+        <field:display field="contact" id="s_com_mihausik_bil_Clientnotification_contact" object="${clientnotification}" z="Z+fJvy+V4Yl0U4e9CTpqBfLi9iI="/>
+        <field:display field="notificationsum" id="s_com_mihausik_bil_Clientnotification_notificationsum" object="${clientnotification}" z="gdb/JnWqlzS8Tb/q86CYXksBnSI="/>
+        <field:display field="client" id="s_com_mihausik_bil_Clientnotification_client" object="${clientnotification}" z="VrrkQxBgw57NmTgRpw0HV1Wyplg="/>
+        <field:display field="clientservice" id="s_com_mihausik_bil_Clientnotification_clientservice" object="${clientnotification}" z="NLXqbuwz4X2mBFa72T4b4/XIPTQ="/>
+    </page:show>
+</div>

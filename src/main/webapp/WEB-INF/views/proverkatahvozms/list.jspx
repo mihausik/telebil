@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Proverkatahvozm" items="${proverkatahvozms}" z="mus4LPlyGcDIKv3czM+W+wW4EYk=">
+        <table:table data="${proverkatahvozms}" id="l_com_mihausik_bil_Proverkatahvozm" path="/proverkatahvozms" z="KFbS2hWrT+aZTVyUFv5QoM3vRds=">
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_datarazmescheniya" property="datarazmescheniya" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_potencialclient" maxLength="40" property="potencialclient" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_manager" property="manager.manname" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_citystreets"  property="citystreets.street" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_addrpodcluchenia" maxLength="20" property="addrpodcluchenia" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_stoimostpodkluchenia" property="stoimostpodkluchenia" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_commentsdir" property="commentsdir" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_commentsmanager" property="commentsmanager" render="false" z="D9JnHibKL6f3YGr9kv+zyIfuzmU="/>
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_clientcontacts" property="clientcontacts" render="false" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Proverkatahvozm_tvexistence" property="tvexistence"/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" xmlns:sec="http://www.springframework.org/security/tags" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_cdr" z="WUyjAYTy/jyYv4BPfB3tK3te8Yg=">
+            <menu:item id="i_cdr_list" messageCode="global_menu_list" url="/cdrs?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+            <menu:item id="fi_cdr_sourcelikeorcalltimebetween" messageCode="global_menu_find" url="/cdrs?find=BySourceLikeOrCalltimeBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="66OUebxIY9jWqLb2/k7CeobrEdc="/>
+        </menu:category>
+        <menu:category id="c_proverkatahvozm" z="11b1cPcBtTLhxhxprqWr6FmxrKs=">
+            <menu:item id="i_proverkatahvozm_new" messageCode="global_menu_new" url="/proverkatahvozms?form" z="+VrFNAUFd8jq9IQIy4Vn9NC6FaQ="/>
+            <menu:item id="i_proverkatahvozm_list" messageCode="global_menu_list" url="/proverkatahvozms?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+            <menu:item id="fi_proverkatahvozm_addrpodcluchenialike" messageCode="global_menu_find" url="/proverkatahvozms?find=ByAddrpodclucheniaLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="0tT2y8cSJhFG6DzzJvpVHptGWd4="/>
+            <menu:item id="fi_proverkatahvozm_manager" messageCode="global_menu_find" url="/proverkatahvozms?find=ByManager&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="pNZ2W2yzy91K/CQYbKxDJYL97QU="/>
+            <menu:item id="fi_proverkatahvozm_tvexistence" messageCode="global_menu_find" url="/proverkatahvozms?find=ByTvexistence&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="m1zOkdAOwbrCaagxyiQZzUpiKzM="/>
+        </menu:category>
+        <menu:category id="c_statuslica" z="oeqFq7dEAer3n67eBzpJWc67Tlk=">
+            <menu:item id="i_statuslica_new" messageCode="global_menu_new" url="/statuslicas?form" z="GOhGbSNuJnmrp6DeTgUdvf+xzro="/>
+            <menu:item id="i_statuslica_list" messageCode="global_menu_list" url="/statuslicas?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_supplier" z="8IYgP9HBdyozOk+Ymf37zKa+fNc=">
+            <menu:item id="i_supplier_new" messageCode="global_menu_new" url="/suppliers?form" z="48D4zeaX6ENxXujfvnWrtY5odlQ="/>
+            <menu:item id="i_supplier_list" messageCode="global_menu_list" url="/suppliers?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_manager" z="drHA8Y4evrida0LSNQCfd7NSkmU=">
+            <menu:item id="i_manager_new" messageCode="global_menu_new" url="/managers?form" z="pZum6BHDwOKSoWFtDhhnmiITrC8="/>
+            <menu:item id="i_manager_list" messageCode="global_menu_list" url="/managers?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+            <menu:item id="fi_manager_loginequals" messageCode="global_menu_find" url="/managers?find=ByLoginEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="phcbIHiuzv7t3sptQRwiNPCakHQ="/>
+        </menu:category>
+        <menu:category id="c_commentszayavok" z="BmeCWuIuXpf1TdJ+iSDGHtPrJ9o=">
+            <menu:item id="i_commentszayavok_new" messageCode="global_menu_new" url="/commentszayavoks?form" z="23qNGct+TWXtVINgm2CexMrmd4Y="/>
+            <menu:item id="i_commentszayavok_list" messageCode="global_menu_list" url="/commentszayavoks?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_schet" z="18iGX3X1dYh+R4+NruCFqQpZQjE=">
+            <menu:item id="i_schet_new" messageCode="global_menu_new" url="/schets?form" z="X647xVkect0BMrEpX6womF4jv9s="/>
+            <menu:item id="i_schet_list" messageCode="global_menu_list" url="/schets?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_doljnost" z="TSzg/i98Tky5WrJv/U18lk/HshE=">
+            <menu:item id="i_doljnost_new" messageCode="global_menu_new" url="/doljnosts?form" z="fp3SlzAo2k3K39nmQlEdmpB3fNk="/>
+            <menu:item id="i_doljnost_list" messageCode="global_menu_list" url="/doljnosts?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_ocherednapodkluchenie" z="S5ZgI7getkn0m3HynU+AQcboyeY=">
+            <menu:item id="i_ocherednapodkluchenie_new" messageCode="global_menu_new" url="/ocherednapodkluchenies?form" z="Em8CZpOUk7Z9ttNCnEGNC5AaBB8="/>
+            <menu:item id="i_ocherednapodkluchenie_list" messageCode="global_menu_list" url="/ocherednapodkluchenies?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_service" z="3UA/yekc26BP3BWK8FEsrofMIbE=">
+            <menu:item id="i_service_new" messageCode="global_menu_new" url="/services?form" z="8z9X6KeQEB+r7FcJ3rgKRJ1p4d4="/>
+            <menu:item id="i_service_list" messageCode="global_menu_list" url="/services?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_device" z="MSnwuh/8KSgMC7e3d68F+WCXnxQ=">
+            <menu:item id="i_device_new" messageCode="global_menu_new" url="/devices?form" z="J2ebcm2NAeVzA9aPlvjk8cZGsGA="/>
+            <menu:item id="i_device_list" messageCode="global_menu_list" url="/devices?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_callplan" z="uOItuhHKw0KTLUF7EaogF53VHSo=">
+            <menu:item id="i_callplan_new" messageCode="global_menu_new" url="/callplans?form" z="wGa5WL51p+MwzG7ktn0xUFi82Rc="/>
+            <menu:item id="i_callplan_list" messageCode="global_menu_list" url="/callplans?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_client" z="TjeLu8x0oS98tSiRzdPNDOc8U+c=">
+            <menu:item id="i_client_new" messageCode="global_menu_new" url="/clients?form" z="0rEWYB2Yq6qokJif3zv05zcXpXk="/>
+            <menu:item id="i_client_list" messageCode="global_menu_list" url="/clients?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+            <menu:item id="fi_client_clientnamelike" messageCode="global_menu_find" url="/clients?find=ByClientnameLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="PGTeITo4UlfIzmUrxUg6Si+Hd/8="/>
+        </menu:category>
+        <menu:category id="c_sip" z="iGh4o51tNu7jJ9CA0qOeBVjBEAM=">
+            <menu:item id="i_sip_new" messageCode="global_menu_new" url="/sips?form" z="KhLqbL/9Iu6QX1aDv7sFb051Eec="/>
+            <menu:item id="i_sip_list" messageCode="global_menu_list" url="/sips?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_devicetype" z="pJijnAZJMnT0nX5N6/ILykYkG04=">
+            <menu:item id="i_devicetype_new" messageCode="global_menu_new" url="/devicetypes?form" z="39Yb9iZH58N0urI+Qv+Kh/o44zo="/>
+            <menu:item id="i_devicetype_list" messageCode="global_menu_list" url="/devicetypes?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_commutator" z="wvUVNZPdG9bCGVA5EaJBhG8D1xk=">
+            <menu:item id="i_commutator_new" messageCode="global_menu_new" url="/commutators?form" z="tpXTpiox+caVLvu7Jkx42rgzcDs="/>
+            <menu:item id="i_commutator_list" messageCode="global_menu_list" url="/commutators?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_clientservice" z="SL7lrE40HuO6pndo0Enw8+1Cuxo=">
+            <menu:item id="i_clientservice_new" messageCode="global_menu_new" url="/clientservices?form" z="xqj/iZfzG6PHfSBklO+iOXd6Yi8="/>
+            <menu:item id="i_clientservice_list" messageCode="global_menu_list" url="/clientservices?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+            <menu:item id="fi_clientservice_client" messageCode="global_menu_find" url="/clientservices?find=ByClient&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="os1+2sm/lhn6+9c6UYO5WE3ELtU="/>
+        </menu:category>
+        <menu:category id="c_payment" z="KXvP3nk7swdtwqF1yirxi8G+72w=">
+            <menu:item id="i_payment_new" messageCode="global_menu_new" url="/payments?form" z="MsWgEk8mPOMZsZrpSmZ4EEiRzKQ="/>
+            <menu:item id="i_payment_list" messageCode="global_menu_list" url="/payments?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+            <menu:item id="fi_payment_client" messageCode="global_menu_find" url="/payments?find=ByClient&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="TyYp5ovhGHi/EmlH6a3GY9CyXuw="/>
+        </menu:category>
+        <menu:category id="c_rate" z="EsRwQbqCssSADhJWlrPP1VRQdS0=">
+            <menu:item id="i_rate_new" messageCode="global_menu_new" url="/rates?form" z="31DRrjGNhP9sbmVwSvbosF0qKz4="/>
+            <menu:item id="i_rate_list" messageCode="global_menu_list" url="/rates?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_yurstatus" z="cuQe33620X3VumgLmyoBfxrqxFY=">
+            <menu:item id="i_yurstatus_new" messageCode="global_menu_new" url="/yurstatuses?form" z="1baadgdiOKUqmaerxn45y9hsGUY="/>
+            <menu:item id="i_yurstatus_list" messageCode="global_menu_list" url="/yurstatuses?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_wish" z="NX/+3ioibBDsC/ntTQwT9EP49Vs=">
+            <menu:item id="i_wish_new" messageCode="global_menu_new" url="/wishes?form" z="DLYucays1rXfIMhz6BTrZweu1Ek="/>
+            <menu:item id="i_wish_list" messageCode="global_menu_list" url="/wishes?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_clientdata" z="Mcn1FL00temEgXsgRUS92d6xS2s=">
+            <menu:item id="i_clientdata_new" messageCode="global_menu_new" url="/clientdatas?form" z="JGYpuO2lydrS+u9G1R5IRuJvKFY="/>
+            <menu:item id="i_clientdata_list" messageCode="global_menu_list" url="/clientdatas?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_clientcontact" z="n7epMFeBrW5Y9t9q2Q/vibhSVrE=">
+            <menu:item id="i_clientcontact_new" messageCode="global_menu_new" url="/clientcontacts?form" z="cYFLdFHuZINa2+KOo7pg6e8PulU="/>
+            <menu:item id="i_clientcontact_list" messageCode="global_menu_list" url="/clientcontacts?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_clientcontacttype" z="3vZ1HcPPYFr3Ss5nQcF9/OM5m2M=">
+            <menu:item id="i_clientcontacttype_new" messageCode="global_menu_new" url="/clientcontacttypes?form" z="0NKYvHXp6AKN2nQugkuBs+kE08c="/>
+            <menu:item id="i_clientcontacttype_list" messageCode="global_menu_list" url="/clientcontacttypes?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_clientnumdog" z="AHMMsDzTuZ+DyAxCBlFWyGrl5F8=">
+            <menu:item id="i_clientnumdog_new" messageCode="global_menu_new" url="/clientnumdogs?form" z="RGuyob6SaWBqFG1cxZmNLbWuxq0="/>
+            <menu:item id="i_clientnumdog_list" messageCode="global_menu_list" url="/clientnumdogs?page=1&amp;size=${empty param.size ? 50 : param.size}" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_dogovora" z="JI0LnBgWaF5YbjWTPk9Au6CO60A=">
+            <menu:item id="i_dogovora_new" messageCode="global_menu_new" url="/dogovoras?form" z="uus4wsYjMLyaSVqWK7y+nlvBNzY="/>
+            <menu:item id="i_dogovora_list" messageCode="global_menu_list" url="/dogovoras?page=1&amp;size=${empty param.size ? 10 : param.size}" z="P6CZtJx3Xp6nXRUI6+Ba6g2dJGk="/>
+        </menu:category>
+        <menu:category id="c_commentsocheredi" z="p0PtMk2DreZQ4oHahQFiHyLGTFs=">
+            <menu:item id="i_commentsocheredi_new" messageCode="global_menu_new" url="/commentsocheredis?form" z="raVGOuHSS2Z3KcHdRsXfKMAwC7g="/>
+            <menu:item id="i_commentsocheredi_list" messageCode="global_menu_list" url="/commentsocheredis?page=1&amp;size=${empty param.size ? 10 : param.size}" z="5sEax3q6s76rICx8D6QRHwUk9iY="/>
+        </menu:category>
+        <menu:category id="c_phone" z="zE5vGa9dYTAIcxMY61b9yeOhsZc=">
+            <menu:item id="i_phone_new" messageCode="global_menu_new" url="/phones?form" z="FYAJ1AAm+Gdog/nkhKKoQ7Kk+Ts="/>
+            <menu:item id="i_phone_list" messageCode="global_menu_list" url="/phones?page=1&amp;size=${empty param.size ? 10 : param.size}" z="rvzFKuIfppymzS+bNQGK+Fj3FnQ="/>
+        </menu:category>
+        <menu:category id="c_clientservicephone" z="CiwK/NfSO1Ws1m6UZyyBYubI2lc=">
+            <menu:item id="i_clientservicephone_new" messageCode="global_menu_new" url="/clientservicephones?form" z="q0lThKIsi+U5PlMXaNKftqBKU58="/>
+            <menu:item id="i_clientservicephone_list" messageCode="global_menu_list" url="/clientservicephones?page=1&amp;size=${empty param.size ? 10 : param.size}" z="tKH6I/cFWA+UZksTSMbSnIrUCe0="/>
+        </menu:category>
+        <menu:category id="c_csbalancedate" z="yc0TG3JPNki2J70aaElyhKnlHms=">
+            <menu:item id="i_csbalancedate_new" messageCode="global_menu_new" url="/csbalancedates?form" z="jRYWeAdphVRLUtoC6UbMwSitqY0="/>
+            <menu:item id="i_csbalancedate_list" messageCode="global_menu_list" url="/csbalancedates?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VNr4vNmaC1iHU0b9Fc7ebqa/n2M="/>
+        </menu:category>
+        <menu:category id="c_tempblock" z="OdtRpUcfT0xykCIOBj5qR9zS6x4=">
+            <menu:item id="i_tempblock_new" messageCode="global_menu_new" url="/tempblocks?form" z="+UIMnaYCVuw5gk2OKXoDzjY2cXs="/>
+            <menu:item id="i_tempblock_list" messageCode="global_menu_list" url="/tempblocks?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ecnnwqIPAhWJOsLMurd7n2U9ilU="/>
+        </menu:category>
+        <menu:category id="c_clientserviceip" z="sVkeBjVeklAVOYPE8nN/vto8tC0=">
+            <menu:item id="i_clientserviceip_new" messageCode="global_menu_new" url="/clientserviceips?form" z="klsJbV/KP0+Dou9Ke7m1EdjgsKE="/>
+            <menu:item id="i_clientserviceip_list" messageCode="global_menu_list" url="/clientserviceips?page=1&amp;size=${empty param.size ? 10 : param.size}" z="1atJhTTieajg9/pjt5DcaunIbDY="/>
+        </menu:category>
+        <menu:category id="c_zayavkanaremont" z="yTlkTvAh275cjR7ScHvlTCx6XPk=">
+            <menu:item id="i_zayavkanaremont_new" messageCode="global_menu_new" url="/zayavkanaremonts?form" z="tNM9xURatFMUBu7JKJl+HToijtE="/>
+            <menu:item id="i_zayavkanaremont_list" messageCode="global_menu_list" url="/zayavkanaremonts?page=1&amp;size=${empty param.size ? 10 : param.size}" z="jAkG2d8lBGSrsypsdB4nwlhnd3E="/>
+        </menu:category>
+        <menu:category id="c_commentszayavokremont" z="AtpomTij/7w3ujePj0My45iIjew=">
+            <menu:item id="i_commentszayavokremont_new" messageCode="global_menu_new" url="/commentszayavokremonts?form" z="7xaFH1U+tQPG8MuYbUMeC3xtAeE="/>
+            <menu:item id="i_commentszayavokremont_list" messageCode="global_menu_list" url="/commentszayavokremonts?page=1&amp;size=${empty param.size ? 10 : param.size}" z="o0K7p1UqzBb3jUced9VkR+hIqX8="/>
+        </menu:category>
+        <menu:category id="c_clientservicerecount" z="gYTte+h+Q/MFtwrpZuOhEG4k5B4=">
+            <menu:item id="i_clientservicerecount_new" messageCode="global_menu_new" url="/clientservicerecounts?form" z="V9kH3ahP1WmV3v/wWrmYdhd4Yjg="/>
+            <menu:item id="i_clientservicerecount_list" messageCode="global_menu_list" url="/clientservicerecounts?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lherUBz8DYwarJq8oL3UfmDsaqg="/>
+        </menu:category>
+        <menu:category id="c_clientservicecredit" z="P6d3YkBdy8Bb5H189+my4bYoib8=">
+            <menu:item id="i_clientservicecredit_new" messageCode="global_menu_new" url="/clientservicecredits?form" z="ajCUJP37uwYHxcgXvvJWL5TuQ4g="/>
+            <menu:item id="i_clientservicecredit_list" messageCode="global_menu_list" url="/clientservicecredits?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kesFEH8+2SFprLyFbB7dnAUu3Cw="/>
+        </menu:category>
+        <menu:category id="c_abonstatistics" z="XEM24onUVJOfI+HVhGdS6/qGcMw=">
+            <menu:item id="i_abonstatistics_new" messageCode="global_menu_new" url="/abonstatisticses?form" z="KaMQcc3b/9CZ8zJKSGiOE58g7/4="/>
+            <menu:item id="i_abonstatistics_list" messageCode="global_menu_list" url="/abonstatisticses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ar9hL14sgdo/2YPH41WdKNdd3yY="/>
+        </menu:category>
+        <menu:category id="c_clientnotification" z="JV9N/YdffM7M0L7eHVn1A0V4XKM=">
+            <menu:item id="i_clientnotification_new" messageCode="global_menu_new" url="/clientnotifications?form" z="ysy42VWeKD334X+WQ84DCu0MRr4="/>
+            <menu:item id="i_clientnotification_list" messageCode="global_menu_list" url="/clientnotifications?page=1&amp;size=${empty param.size ? 10 : param.size}" z="RnOI0tRuN0RrD8PktH/GEOpiRnE="/>
+        </menu:category>
+        <menu:category id="c_clientservicestreet" z="v9DHTbxaAqX+MnoFz7ZTMgNKTFw=">
+            <menu:item id="i_clientservicestreet_new" messageCode="global_menu_new" url="/clientservicestreets?form" z="Obxih2eRf0dX11MxoFtEZhXZH7g="/>
+            <menu:item id="i_clientservicestreet_list" messageCode="global_menu_list" url="/clientservicestreets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Q9F4MkhA1vTLsWu7e68CZkz1CrM="/>
+        </menu:category>
+        <menu:category id="c_clientcomments" z="PBHdFnac4TFeUhk+vVLgn22t5Ks=">
+            <menu:item id="i_clientcomments_new" messageCode="global_menu_new" url="/clientcomments?form" z="rxa5x5+aQbIiA/oZYYyiBzSZLTo="/>
+            <menu:item id="i_clientcomments_list" messageCode="global_menu_list" url="/clientcomments?page=1&amp;size=${empty param.size ? 10 : param.size}" z="sFq/qBQsOkD4zXPcFyOml5N8xfI="/>
+        </menu:category>
+    </menu:menu>
+</div>

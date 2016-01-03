@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Payment" object="${payment}" path="/payments" update="false" z="user-managed">
+        <label>
+            <c:out value="Клиент:"/>
+        </label>
+        <div class="box">${payment.client.clientname}</div>
+        <br/>
+        <field:display field="summa" id="s_com_mihausik_bil_Payment_summa" object="${payment}" z="2w2EfOVOnc5r9D6rhTYeRLJA12E="/>
+        <field:display date="true" dateTimePattern="${payment_dataplateja_date_format}" field="dataplateja" id="s_com_mihausik_bil_Payment_dataplateja" object="${payment}" z="LNGQoDeF1QnpSVz9Xwldr0wOXSM="/>
+        <field:display field="client" id="s_com_mihausik_bil_Payment_client" object="${payment}" render="false" subfield="clientname" z="user-managed"/>
+        <field:display field="description" id="s_com_mihausik_bil_Payment_description" object="${payment}" z="VXchY328yQzvb6NUsQ6G8txdvlc="/>
+        <label>
+            <c:out value="Услуга:"/>
+        </label>
+        <div class="box">${payment.clientservice.service.name}</div>
+        <br/>
+        <field:display field="clientservice" id="s_com_mihausik_bil_Payment_clientservice" object="${payment}" z="qVwGOyXwHp7nA4dRXPvHDmYoR8I="/>
+    </page:show>
+</div>

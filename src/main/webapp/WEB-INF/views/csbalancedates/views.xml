@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="csbalancedates/list">
+        <put-attribute name="body" value="/WEB-INF/views/csbalancedates/list.jspx"/>
+    </definition>
+<definition extends="default" name="csbalancedates/show">
+        <put-attribute name="body" value="/WEB-INF/views/csbalancedates/show.jspx"/>
+    </definition>
+<definition extends="default" name="csbalancedates/create">
+        <put-attribute name="body" value="/WEB-INF/views/csbalancedates/create.jspx"/>
+    </definition>
+<definition extends="default" name="csbalancedates/update">
+        <put-attribute name="body" value="/WEB-INF/views/csbalancedates/update.jspx"/>
+    </definition>
+<definition extends="default" name="csbalancedates/findCsbalancedatesByDateLessThanEquals">
+        <put-attribute name="body" value="/WEB-INF/views/csbalancedates/findCsbalancedatesByDateLessThanEquals.jspx"/>
+    </definition>
+<definition extends="default" name="csbalancedates/findCsbalancedatesByDateBetween">
+        <put-attribute name="body" value="/WEB-INF/views/csbalancedates/findCsbalancedatesByDateBetween.jspx"/>
+    </definition>
+<definition extends="default" name="csbalancedates/findCsbalancedatesByDateBetweenAndClientservice">
+        <put-attribute name="body" value="/WEB-INF/views/csbalancedates/findCsbalancedatesByDateBetweenAndClientservice.jsp"/>
+    </definition>
+<definition extends="default" name="csbalancedates/findCsbalancedatesByClientservice">
+        <put-attribute name="body" value="/WEB-INF/views/csbalancedates/findCsbalancedatesByClientservice.jspx"/>
+    </definition>
+</tiles-definitions>

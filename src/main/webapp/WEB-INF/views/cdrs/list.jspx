@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_mihausik_bil_Cdr" items="${cdrs}" z="jWkxEe2swMKR2sEDTzaFBH+Syv0=">
+        <table:table create="false" data="${cdrs}" delete="false" id="l_com_mihausik_bil_Cdr" path="/cdrs" update="false" z="user-managed">
+            <table:column id="c_com_mihausik_bil_Cdr_source" maxLength="14" property="source" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Cdr_destination" maxLength="12" property="destination" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Cdr_sell" maxLength="5" property="sell" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Cdr_duration" maxLength="5" property="duration" z="user-managed"/>
+            <table:column dateTimePattern="cdr_calltime_date_format" id="c_com_mihausik_bil_Cdr_calltime" maxLength="17" property="calltime" z="user-managed"/>
+            <table:column id="c_com_mihausik_bil_Cdr_disposition" property="disposition" z="+jTBeeICk9VnEz4RYDsMemkKaXE="/>
+        </table:table>
+    </page:list>
+</div>

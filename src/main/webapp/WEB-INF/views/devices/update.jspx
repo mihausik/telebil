@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_mihausik_bil_Device" modelAttribute="device" path="/devices" versionField="Version" z="TvaQf4JdqxNeuWmA/pJl2IzIEtk=">
+        <field:input field="devname" id="c_com_mihausik_bil_Device_devname" z="IlYI+9KfXbY4dxOArSL3Pr6THZQ="/>
+        <field:input field="serialnum" id="c_com_mihausik_bil_Device_serialnum" z="S5m5QtPQ/7R5pe0aAsVfbj7aj14="/>
+        <field:select field="devtype" id="c_com_mihausik_bil_Device_devtype" itemValue="id" items="${devicetypes}" path="/devicetypes" z="zTYiJxRExD1M/oqmoM3lVeNTLrw="/>
+        <field:input field="price" id="c_com_mihausik_bil_Device_price" validationMessageCode="field_invalid_number" z="426CbkoDc48K2QO10DJ76lWJ9Ok="/>
+    </form:update>
+</div>

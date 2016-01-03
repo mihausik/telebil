@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_mihausik_bil_Clientdata" object="${clientdata}" path="/clientdatas" z="user-managed" list="false" create="false" >
+        <field:display field="contacttype" id="s_com_mihausik_bil_Clientdata_contacttype" object="${clientdata}" z="h1ubDSBkZangMibA81X2bLo42c0="/>
+        <field:display field="contactname" id="s_com_mihausik_bil_Clientdata_contactname" object="${clientdata}" z="gss4cJUfE2J+luLP8zdzHDP9uLw="/>
+        <field:display field="client" id="s_com_mihausik_bil_Clientdata_client" object="${clientdata}" z="RNlYwfpRPPOpEHA3dDnqBOMVM2M="/>
+        <field:display field="contact" id="s_com_mihausik_bil_Clientdata_contact" object="${clientdata}" z="9kU47b/kpi75/x1gzy2OuGtem/4="/>
+        <field:display field="fio" id="s_com_mihausik_bil_Clientdata_fio" object="${clientdata}" z="yNvctHhVo84qTHYxypMxqv5vot0="/>
+        <field:display field="doljnost" id="s_com_mihausik_bil_Clientdata_doljnost" object="${clientdata}" z="do66C0LoNZ/TG2HsrvRIIGfOe1U="/>
+        <a href="/telebil/clients/${clientdata.client.id}">к странице клиента</a>
+    </page:show>
+</div>
