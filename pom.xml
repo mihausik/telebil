@@ -361,6 +361,8 @@
 			<url>http://localhost:8080/manager/text</url>
 			<server>TomcatServer</server>
 			<path>/telebil</path>
+			<username>miha</username>
+                    <password>monadm20</password>
 		</configuration>
 			</plugin>
 			<plugin>
